@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects>
+	<object id="1" name="vitnam_sms" pmid="sms"/>
+	<object id="2" name="vitnam_card" pmid="card"/>
+	<object id="3" name="vitnam_band" pmid="bank"/>
+</objects>

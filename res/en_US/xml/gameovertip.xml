@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects>
+	<object taskid="0">
+		<tip id="1" maxlen="300" msg="Some battles you win, some battles you lose" pos="325.0,667.0" />
+		<tip id="2" maxlen="250" msg="Warrior, let's play it again~" pos="345.0,548.00" />
+	</object>
+	<object taskid="10">
+		<tip id="1" maxlen="400" msg="Ah!" pos="342.85,611.25" />
+		<tip id="2" maxlen="400" msg="Time runs out..." color="218,91,58" pos="388.72,558.18" />
+	</object>
+	<object taskid="12">
+		<tip id="1" maxlen="300" msg="If you really want to kill yourself, just do it!" pos="352.85,611.25" />
+		<tip id="2" maxlen="300" msg="Do not kill hostage!" pos="398.72,558.18" />
+		<tip id="3" maxlen="300" msg="Meow~" pos="494.57,508.47" />
+	</object>
+	
+</objects>

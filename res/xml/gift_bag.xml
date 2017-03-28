@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+物品类型命名为 item_(物品id) 
+	Item_PhysicalPower, //体力1
+	Item_HealthPower, //血2
+	Item_DriedFilsh, //小鱼干3
+	Item_Gold, //金币4
+	Item_Exp, //经验5
+	Item_RMB, //人民币6
+	Item_RolePiece_IronMan, //钢铁侠碎片7
+	Item_RolePiece_CaptainAmerica, //美国队长碎片8
+	Item_Skill_Shield,  //护盾9
+	Item_Skill_Bomb,  //炸弹10
+	Item_Skill_Frozen,  //冰封11
+枪的命名为 weapon_(枪的id)
+  -->
+<objects>
+	<sample sid="1" name="首充礼包" repeated="0" need_fish="0" need_rmb="0" icon="lb3_Animation" item_4="500" item_9="2" item_10="2" item_11="2"/>
+	<sample sid="2" name="豪华猫粮礼包" repeated="1" need_fish="300" need_rmb="0" icon="lb1_Animation" item_4="1000" item_9="5" item_10="5" item_11="5"/>
+	<sample sid="3" name="猫咪强化礼包" repeated="0" need_fish="150" need_rmb="0" icon="lb2_Animation" item_4="5000" weapon_8="1"/>
+</objects>

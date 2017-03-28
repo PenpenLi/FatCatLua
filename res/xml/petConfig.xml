@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects>
+	<object sid="2" petfile="game/pet/cw3x_Animation.ExportJson" arname="cw3x_Animation" bulletRes="game/bullets/bulletpet_2.png" bulletType="7" att="1" />
+	<object sid="1" petfile="game/pet/cw2x_Animation.ExportJson" arname="cw2x_Animation" bulletRes="game/bullets/bulletpet_1.png" bulletType="5" att="1" />
+	<object sid="0" petfile="game/pet/cw1_Animation.ExportJson" arname="cw1_Animation" bulletRes="game/bullets/bulletNormal_3.png" bulletType="1" att="1" />
+</objects>

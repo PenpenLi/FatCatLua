@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>monster_egg.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>monster_egg</name>
+            <delay>0.06</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>monster_egg_000.png</spriteFrame>
+            <spriteFrame>monster_egg_001.png</spriteFrame>
+            <spriteFrame>monster_egg_002.png</spriteFrame>
+            <spriteFrame>monster_egg_003.png</spriteFrame>
+            <spriteFrame>monster_egg_004.png</spriteFrame>
+            <spriteFrame>monster_egg_005.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

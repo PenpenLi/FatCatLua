@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects>
+        <object_0 exp="30" gold="300" mapID="3" chanceID="0:1"/>
+        <object index="1" monsterID="6" startPosX="93" nextDelay="0.001" />
+        <object index="2" monsterID="6" startPosX="219" nextDelay="0.001" />
+        <object index="3" monsterID="6" startPosX="350" nextDelay="1" />
+        <object index="4" monsterID="3" startPosX="215" nextDelay="2" />
+        <object index="5" monsterID="6" startPosX="348" nextDelay="0.001" />
+        <object index="6" monsterID="6" startPosX="480" nextDelay="0.001" />
+        <object index="7" monsterID="6" startPosX="602" nextDelay="1" />
+        <object index="8" monsterID="3" startPosX="450" nextDelay="2" />
+        <object index="9" monsterID="6" startPosX="218" nextDelay="0.001" />
+        <object index="10" monsterID="6" startPosX="344" nextDelay="0.001" />
+        <object index="11" monsterID="6" startPosX="474" nextDelay="1" />
+        <object index="12" monsterID="3" startPosX="344" nextDelay="3" />
+        <object index="13" monsterID="3" startPosX="114" nextDelay="0.001" />
+        <object index="14" monsterID="6" startPosX="292" nextDelay="0.001" />
+        <object index="15" monsterID="3" startPosX="434" nextDelay="0.001" />
+        <object index="16" monsterID="6" startPosX="608" nextDelay="3" />
+        <object index="17" monsterID="2" startPosX="562" nextDelay="2" />
+        <object index="18" monsterID="4" startPosX="180" nextDelay="2" />
+        <object index="19" monsterID="2" startPosX="398" nextDelay="0.001" />
+        <object index="20" monsterID="2" startPosX="582" nextDelay="2" />
+        <object index="21" monsterID="4" startPosX="98" nextDelay="0.001" />
+        <object index="22" monsterID="4" startPosX="256" nextDelay="3" />
+        <object index="23" monsterID="6" startPosX="218" nextDelay="0.001" />
+        <object index="24" monsterID="6" startPosX="344" nextDelay="0.001" />
+        <object index="25" monsterID="6" startPosX="474" nextDelay="1" />
+        <object index="26" monsterID="3" startPosX="344" nextDelay="3" />
+        <object index="27" monsterID="6" startPosX="93" nextDelay="0.001" />
+        <object index="28" monsterID="6" startPosX="219" nextDelay="0.001" />
+        <object index="29" monsterID="6" startPosX="350" nextDelay="1" />
+        <object index="30" monsterID="3" startPosX="215" nextDelay="2" />
+        <object index="31" monsterID="2" startPosX="562" nextDelay="2" />
+        <object index="32" monsterID="4" startPosX="180" nextDelay="2" />
+        <object index="33" monsterID="2" startPosX="398" nextDelay="0.001" />
+        <object index="34" monsterID="2" startPosX="582" nextDelay="2" />
+        <object index="35" monsterID="4" startPosX="98" nextDelay="0.001" />
+        <object index="36" monsterID="4" startPosX="256" nextDelay="2" />
+</objects>

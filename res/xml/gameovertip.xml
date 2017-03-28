@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects>
+	<object taskid="0">
+		<tip id="1" maxlen="400" msg="胜败乃兵家常事" pos="325.0,597.0" />
+		<tip id="2" maxlen="400" msg="大侠请重新来过~" pos="365.0,548.00" />
+	</object>
+	<object taskid="10">
+		<tip id="1" maxlen="400" msg="唉呀！" pos="342.85,611.25" />
+		<tip id="2" maxlen="400" msg="时间耗尽咯..." color="218,91,58" pos="388.72,558.18" />
+	</object>
+	<object taskid="12">
+		<tip id="1" maxlen="400" msg="要死自己死！" pos="352.85,611.25" />
+		<tip id="2" maxlen="400" msg="不要打人质！" pos="398.72,558.18" />
+		<tip id="3" maxlen="400" msg="喵呜~" pos="494.57,508.47" />
+	</object>
+	
+</objects>

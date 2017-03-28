@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>bullet_boom.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>bullet_boom</name>
+            <delay>0.017</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>bullet_boom_0001.png</spriteFrame>
+            <spriteFrame>bullet_boom_0001.png</spriteFrame>
+            <spriteFrame>bullet_boom_0002.png</spriteFrame>
+            <spriteFrame>bullet_boom_0002.png</spriteFrame>
+            <spriteFrame>bullet_boom_0003.png</spriteFrame>
+            <spriteFrame>bullet_boom_0003.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

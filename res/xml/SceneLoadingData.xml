@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--tag 场景 type资源类型  type: 1 texture 2 plist 3 amature -->
+<SceneLoadings>
+	<SceneLoading tag="1">
+		<Resouces type="1" suffix=".png">
+			<path name="res/GameMainScene"/>
+			<path name="animation/cs2_Animation"/>
+			<path name="animation/csm_Animation"/>
+			<path name="animation/cw2zs_Animation"/>
+			<path name="animation/cw3zs_Animation"/>
+			<path name="animation/cwbj_Animation"/>
+			<path name="animation/fengli_effect"/>
+			<path name="animation/haiyang_effect"/>
+			<path name="animation/heidong_Animation"/>
+			<path name="animation/huizhang_Animation"/>
+			<path name="animation/jmtx_gAnimation"/>
+			<path name="animation/juedi_effect"/>
+			<path name="animation/lb1_Animation"/>
+			<path name="animation/lb2_Animation"/>
+			<path name="animation/lb3_Animation"/>
+			<path name="animation/lbjm1_Animation"/>
+			<path name="animation/lbjm2_Animation"/>
+			<path name="animation/lbjm3_Animation"/>
+			<path name="animation/maoPF1_Animation"/>
+			<path name="animation/maoPF2_Animation"/>
+			<path name="animation/maoPF3_Animation"/>
+			<path name="animation/mmtb_Animation"/>
+			<path name="animation/niunai_effect"/>
+			<path name="animation/wansheng_effect"/>
+			<path name="animation/weapon_Animation"/>
+			<path name="animation/xx_Animation"/>
+			<path name="animation/yubi_Animation"/>
+			
+			<path name="animation/zy_Animation"/>
+			<path name="res.2/CatHome" />
+			<path name="res.2/collapsemenu" />
+			<path name="res.2/GameTaskLayer" />
+			<path name="res.2/gameWinLayer" />
+			<path name="res.2/pet" />
+			<path name="res.2/RankLayer" />
+			<path name="res.2/share" />
+			<path name="res.2/SignLayer" />
+			<path name="res.2/store" />
+			<path name="res.2/WeaponLayer" />
+			<path name="res.2/WeaponSecondary" />
+			
+			<path name="res/CatHome" />
+			<path name="res/collapsemenu" />
+			<path name="res/GameTaskLayer" />
+			<path name="res/gameWinLayer" />
+			<path name="res/pet" />
+			<path name="res/RankLayer" />
+			<path name="res/share" />
+			<path name="res/SignLayer" />
+			<path name="res/store" />
+			<path name="res/WeaponLayer" />
+			<path name="res/WeaponSecondary" />
+			
+		</Resouces>
+		<Resouces type="2" suffix=".plist">
+			
+		</Resouces>
+		<Resouces type="3" suffix=".ExportJson">
+			<path name="animation/niunai_effect"/>
+			<path name="animation/juedi_effect"/>
+			<path name="animation/haiyang_effect"/>
+			<path name="animation/wansheng_effect"/>
+			<path name="animation/fengli_effect"/>
+			<path name="animation/weapon_Animation"/>
+			<path name="animation/zdy2_Animation"/>
+			<path name="animation/zy_Animation"/>
+			<path name="animation/cs2_Animation"/>
+			<path name="animation/maoPF1_Animation"/>
+			<path name="animation/maoPF2_Animation"/>
+			<path name="animation/maoPF3_Animation"/>
+			<path name="animation/cw1zs_Animation"/>
+			<path name="animation/cw2zs_Animation"/>
+			<path name="animation/cw3zs_Animation"/>
+			<path name="animation/cwbj_Animation"/>
+
+			<path name="animation/huizhang_Animation"/>
+			<path name="animation/lb1_Animation"/>
+			<path name="animation/lb2_Animation"/>
+			<path name="animation/lb3_Animation"/>
+			<path name="animation/mmtb_Animation"/>
+			<path name="animation/xx_Animation"/>
+			<path name="animation/yubi_Animation"/>
+
+			<path name="animation/lbjm1_Animation"/>
+			<path name="animation/lbjm2_Animation"/>
+			<path name="animation/lbjm3_Animation"/>
+
+			<path name="animation/heidong_Animation"/>
+			<path name="animation/jmtx_gAnimation"/>
+		
+		</Resouces>
+	</SceneLoading>
+	<SceneLoading tag="2"  >
+		<Resouces type="1" suffix=".png">
+			<path name="res/DuplicateChoiceScene"/>
+			
+		</Resouces>
+		<Resouces type="2" suffix=".plist">
+			
+		</Resouces>
+		<Resouces type="3" suffix=".ExportJson">
+			<path name="animation/niunai_effect"/>
+			<path name="animation/juedi_effect"/>
+			<path name="animation/haiyang_effect"/>
+			<path name="animation/wansheng_effect"/>
+			<path name="animation/fengli_effect"/>
+			<path name="animation/csm_Animation"/>
+			<path name="animation/zy_Animation"/>
+			<path name="animation/cs2_Animation"/>
+			<path name="animation/weapon_Animation"/>
+			<path name="animation/zdy2_Animation"/>
+
+			<path name="animation/huizhang_Animation"/>
+			<path name="animation/lb1_Animation"/>
+			<path name="animation/lb2_Animation"/>
+			<path name="animation/lb3_Animation"/>
+			<path name="animation/mmtb_Animation"/>
+			<path name="animation/xx_Animation"/>
+			<path name="animation/yubi_Animation"/>
+
+			<path name="animation/lbjm1_Animation"/>
+			<path name="animation/lbjm2_Animation"/>
+			<path name="animation/lbjm3_Animation"/>
+
+			<path name="animation/heidong_Animation"/>
+			<path name="animation/jmtx_gAnimation"/>
+
+			<path name="animation/maoPF1_Animation"/>
+			<path name="animation/maoPF2_Animation"/>
+			<path name="animation/maoPF3_Animation"/>
+
+			<path name="animation/cw1zs_Animation"/>
+			<path name="animation/cw2zs_Animation"/>
+			<path name="animation/cw3zs_Animation"/>
+			<path name="animation/cwbj_Animation"/>
+		</Resouces>
+		
+	</SceneLoading>
+	
+	<SceneLoading tag="3" >
+		<Resouces type="1" suffix=".png">
+			<path name="res/GamingLayer"/>
+			<path name="game/animpacker"/>
+			<path name="game/bullets"/>
+			<path name="game/pet"/>
+			
+		</Resouces>
+		<Resouces type="2" suffix=".plist">
+			<path name="res/GamingLayer"/>
+		</Resouces>
+		<Resouces type="3" suffix=".ExportJson">
+			<path name="game/animation/bomb"/>
+			<path name="game/animation/frozen"/>
+			<path name="game/animation/shield"/>
+			<path name="game/bullets"/>
+		</Resouces>
+	</SceneLoading>
+	
+</SceneLoadings>

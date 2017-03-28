@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects>
+	<object id="1" cd="10" price="25" tag="3" externalData="400" name="炸弹" desc="全屏释放，所有怪物掉血" />
+	<object id="2" cd="10" price="25" tag="3" externalData="6" name="冰冻" desc="冰冻所有怪物" />
+	<object id="3" cd="10" price="25" tag="3" externalData="6" name="护盾" desc="抵挡一切伤害" />
+</objects>

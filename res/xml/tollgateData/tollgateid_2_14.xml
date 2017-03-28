@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects>
+        <object_0 exp="" gold="" mapID="5" chanceID="55:1" > 
+          <task taskid="0" > 
+                <awarding  itemID="4" num="800" />
+                <awarding  itemID="5" num="40" />
+          </task> 
+          <task taskid="1" taskarg1="90" > 
+                <awarding  itemID="3" num="10" />
+          </task> 
+          <task taskid="2" taskarg1="85" > 
+                <awarding  itemID="3" num="10" />
+          </task> 
+          <task taskid="4" taskarg1="5" > 
+                <awarding  itemID="3" num="10" />
+          </task> 
+        </object_0> 
+        <object index="1" monsterID="51" startPosX="562" nextDelay="2" />
+        <object index="2" monsterID="51" startPosX="180" nextDelay="2" />
+        <object index="3" monsterID="51" startPosX="600" nextDelay="2" />
+        <object index="4" monsterID="21" startPosX="90" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="5" monsterID="23" startPosX="580" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="6" monsterID="25" startPosX="360" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="7" monsterID="51" startPosX="360" nextDelay="2" />
+        <object index="8" monsterID="51" startPosX="360" nextDelay="2" />
+        <object index="9" monsterID="8" startPosX="230" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="10" monsterID="74" startPosX="490" nextDelay="5">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="11" monsterID="25" startPosX="200" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="12" monsterID="9" startPosX="360" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="13" monsterID="9" startPosX="520" nextDelay="5">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="14" monsterID="8" startPosX="219" nextDelay="1">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="15" monsterID="25" startPosX="219" nextDelay="1">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="16" monsterID="22" startPosX="93" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="17" monsterID="23" startPosX="350" nextDelay="1.5">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="18" monsterID="26" startPosX="219" nextDelay="5">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="19" monsterID="8" startPosX="100" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="20" monsterID="9" startPosX="360" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="21" monsterID="74" startPosX="" nextDelay="" />
+        <object index="22" monsterID="25" startPosX="620" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="23" monsterID="22" startPosX="232" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="24" monsterID="73" startPosX="488" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="25" monsterID="70" startPosX="360" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="26" monsterID="22" startPosX="232" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="27" monsterID="21" startPosX="488" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="28" monsterID="53" startPosX="200,850" nextDelay="0.001" />
+        <object index="29" monsterID="53" startPosX="520,850" nextDelay="3" />
+        <object index="30" monsterID="8" startPosX="232" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="31" monsterID="9" startPosX="488" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="32" monsterID="24" startPosX="100" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="33" monsterID="22" startPosX="360" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="34" monsterID="8" startPosX="620" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="35" monsterID="26" startPosX="200" nextDelay="2" />
+        <object index="36" monsterID="25" startPosX="232" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="37" monsterID="26" startPosX="488" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="38" monsterID="23" startPosX="100" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="39" monsterID="22" startPosX="360" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="40" monsterID="23" startPosX="620" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="41" monsterID="9" startPosX="540,1176" nextDelay="1">
+                <awarding  itemID="4" num="20" chance="1" />
+                <awarding  itemID="3" num="2" chance="1" />
+                <awarding  itemID="2" num="1" chance="1" />
+        </object>
+        <object index="42" monsterID="25" startPosX="270" nextDelay="1">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="43" monsterID="73" startPosX="180" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="44" monsterID="74" startPosX="360" nextDelay="1">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="45" monsterID="22" startPosX="450" nextDelay="1">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="46" monsterID="26" startPosX="500" nextDelay="3">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="47" monsterID="74" startPosX="300" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="48" monsterID="25" startPosX="380" nextDelay="1">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="49" monsterID="24" startPosX="450" nextDelay="1">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="50" monsterID="22" startPosX="540" nextDelay="1">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="51" monsterID="23" startPosX="550" nextDelay="3">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="52" monsterID="25" startPosX="270" nextDelay="1">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="53" monsterID="8" startPosX="180" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="54" monsterID="9" startPosX="360" nextDelay="1">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="55" monsterID="7" startPosX="450" nextDelay="1">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="56" monsterID="22" startPosX="500" nextDelay="3">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="57" monsterID="26" startPosX="450" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="58" monsterID="23" startPosX="360" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="59" monsterID="22" startPosX="180" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="60" monsterID="21" startPosX="390" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="61" monsterID="8" startPosX="270" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="62" monsterID="25" startPosX="360" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="63" monsterID="22" startPosX="450" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="64" monsterID="73" startPosX="360" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="65" monsterID="24" startPosX="270" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="66" monsterID="74" startPosX="450" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="67" monsterID="7" startPosX="180" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="68" monsterID="23" startPosX="540" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="69" monsterID="26" startPosX="360" nextDelay="1">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="70" monsterID="22" startPosX="270" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="71" monsterID="24" startPosX="450" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="72" monsterID="57" startPosX="270,783" nextDelay="">
+                <awarding  itemID="4" num="20" chance="1" />
+                <awarding  itemID="3" num="2" chance="1" />
+                <awarding  itemID="1" num="1" chance="0.8" />
+                <awarding  itemID="8" num="1" chance="1" />
+        </object>
+        <object index="73" monsterID="8" startPosX="180" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="74" monsterID="9" startPosX="540" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="75" monsterID="74" startPosX="360" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="76" monsterID="72" startPosX="180" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="77" monsterID="24" startPosX="540" nextDelay="1">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="78" monsterID="22" startPosX="270" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="79" monsterID="21" startPosX="540" nextDelay="3">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="80" monsterID="26" startPosX="360" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="81" monsterID="74" startPosX="270" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="82" monsterID="8" startPosX="450" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="83" monsterID="9" startPosX="180" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="84" monsterID="24" startPosX="540" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="85" monsterID="26" startPosX="360" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="86" monsterID="22" startPosX="180" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="87" monsterID="23" startPosX="540" nextDelay="1">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="88" monsterID="25" startPosX="270" nextDelay="0.001">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="89" monsterID="24" startPosX="540" nextDelay="3">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="90" monsterID="21" startPosX="360" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="91" monsterID="22" startPosX="270" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="92" monsterID="25" startPosX="360" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="93" monsterID="26" startPosX="450" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="94" monsterID="8" startPosX="360" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+</objects>

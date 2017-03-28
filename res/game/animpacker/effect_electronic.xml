@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>effect_electronic.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>effect_electronic_small</name>
+            <delay>0.06</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>effect_electronic_small_001.png</spriteFrame>
+            <spriteFrame>effect_electronic_small_002.png</spriteFrame>
+            <spriteFrame>effect_electronic_small_003.png</spriteFrame>
+            <spriteFrame>effect_electronic_small_004.png</spriteFrame>
+            <spriteFrame>effect_electronic_small_005.png</spriteFrame>
+            <spriteFrame>effect_electronic_small_006.png</spriteFrame>
+        </animation>
+        <animation>
+            <name>effect_electronic_big</name>
+            <delay>0.06</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>effect_electronic_big_001.png</spriteFrame>
+            <spriteFrame>effect_electronic_big_002.png</spriteFrame>
+            <spriteFrame>effect_electronic_big_003.png</spriteFrame>
+            <spriteFrame>effect_electronic_big_004.png</spriteFrame>
+            <spriteFrame>effect_electronic_big_005.png</spriteFrame>
+            <spriteFrame>effect_electronic_big_006.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

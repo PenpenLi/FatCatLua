@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<objects>
+	<sample id="1000" zh="啊偶...你的金币不足了！" en="Ah oh, you don't have enough Gold"/>
+	<sample id="1001" zh="啊偶...你的鱼干不足了！" en="Ah oh, you don't have enough Dried Fish"/>
+	<sample id="1002" zh="你需要达到%d级才能解锁该武器哦！喵~" en="You need get level %d to unlock the weapon"/>
+	<sample id="1003" zh="充值任意金额可以购买此礼包" en="You can get this package with first purchase!"/>
+	
+	<!-- 商店技能购买 -->
+	<sample id="1" zh="兑换" en="buy"/>	
+	<sample id="2" zh="你的鱼干不足 快去购买" en="You don't have enough Dried Fish, Buy now?"/>
+	<sample id="3" zh="当前数量:" en="have: "/>
+	
+	<!-- 武器 -->
+	<sample id="4" zh="已解锁" en="Unlocked"/>
+	<sample id="5" zh="未解锁" en="Locked"/>
+	<sample id="6" zh="%d级解锁" en="Unlock %d"/>
+	<sample id="7" zh="伤害输出" en="ATK:"/>
+	<sample id="8" zh="攻击速度" en="ASPD:"/>
+	<sample id="9" zh="子弹数量" en="Bullet Number"/>
+	<sample id="10" zh="武器" en="WEAPON"/>
+	<sample id="23" zh="附加属性:" en="Additional Properties:"/>
+	<sample id="24" zh="冰冻:" en="Freeze"/>
+	<sample id="25" zh="花费%d金币" en="spend %d Gold"/>
+	<sample id="26" zh="花费%d鱼币" en="spend %d Dried Fish"/>
+	<sample id="27" zh="伤害输出" en="DPS"/>
+	<sample id="28" zh="攻击速度" en="Attack Speed"/>
+	<sample id="29" zh="子弹数量" en="Bullet Number"/>
+	
+	<!-- 猫屋 -->
+	<sample id="11" zh="猫屋" en="Cat House"/>
+	<sample id="12" zh="猫咪简介:" en="Cat introduction"/>
+	
+	<sample id="14" zh="热血射击小能手 从小喜欢枪械 爱捣蛋 样子萌萌哒" en="With cute outlooking, the naughty cat is a shooting expert and likes guns since he was a little baby"/>
+	<sample id="15" zh="Max军工业年轻的科学家 自己研究钢铁外甲 自带武器 年轻有为 高冷的小帅喵" en="Worked as a Max military-industrial scientist, the handsome young cat researched the steel armor with own weapon by himself."/>
+	<sample id="16" zh="军队世家 从小进行高强度的军事训练 有很好的军战素养 成熟稳健 暖男帅大叔喵" en="From a army family, the sunshine cat has professional fighting qualities with high-intensity military training at a very early age"/>
+	<sample id="17" zh="需要%d张拼图解锁。" en="Need %d jigsaw to unlock"/>
+	<sample id="18" zh="切换装备后,原有的等级和装备不会改变" en="level and equipment won't change switch role"/>
+	<sample id="19" zh="拼图数:" en="Jigsaw"/>
+	<sample id="20" zh="护罩:" en="Protective Cover"/>
+	<sample id="21" zh="导弹:" en="Missile"/>
+	<sample id="22" zh="冰冻:" en="Freeze"/>
+	
+	<!-- 宠物 -->
+	<sample id="100" zh="宠物" en="PET"/>
+	<sample id="101" zh="长得胖不是我的错，我也可以跑得很快" en="I don't want to be fat and I could run faster."/>
+	<sample id="102" zh="我的唾液有毒 不要靠我太近哦" en="Don't be so close to me as my saliva is dangerous."/>
+	<sample id="103" zh="某一天 一道神秘的闪电把我击中。。。于是我现在化身这道神秘的闪电" en="One day I was struck by lightning and now I'm the Mysterious Lightning"/>
+	
+	<!-- 成就 -->
+	<sample id="201" zh="击杀%d个小怪" en="Killed %d monsters"/>
+	<sample id="202" zh="获得%d个三星关卡" en="Get %d 3-star stage"/>
+	<sample id="203" zh="等级达到%d级" en="Reach level %d"/>
+	
+	
+	<sample id="300" zh="恭喜你~ 获得%d块 %2d 拼图！" en="Got %d %2d Jigsaws~ congratulations"/>
+	<sample id="302" zh="“小可爱”Gigi" en="Little Cute Roy"/>
+	<sample id="303" zh="“机械迷”Dave" en="Gadget Lover Dave"/>
+	<sample id="304" zh="“帅队长”Baron" en="Handsome Captain Baron"/>
+	
+	<sample id="1004" zh="好累...你的体力已耗尽！" en="So tired... you have run out of your energy! "/>
+	<sample id="1005" zh="笨蛋...武器都没装备！" en="Little fool, you are not armed!"/>
+	<sample id="1006" zh="铲屎官，你已经升级到%d级了" en="Sir, you have upgraded to Level %d"/>
+	<sample id="1007" zh="可领取" en="GET"/>	
+	<sample id="1008" zh="确定消耗10个鱼币进入金色飞碟吗?" en="Sure to spend 10 Fish gold to enter golden UFO?"/>	
+	<sample id="1009" zh="拼图能通过战斗和每日签到获得哦，喵" en="You can get jigsaw via fighting and daily award"/>
+	<sample id="1010" zh="%d天" en="%d DAY"/>
+	
+	<sample id="2000" zh="6元" en="$0.99"/>
+	<sample id="2001" zh="12元" en="$1.99"/>
+	<sample id="2002" zh="18元" en="$2.99"/>
+	<sample id="2003" zh="25元" en="$3.99"/>
+	<sample id="2004" zh="30元" en="$4.99"/>
+	
+	<sample id="3000" zh="喜欢我们,请为我们点赞吧!" en="Give Me Five Score if You Like This Game!"/>
+	<sample id="3001" zh="抱歉" en="SORRY"/>
+	<sample id="3002" zh="距离下一次观看视频还需要等待:" en="you need to wait to watch again:"/>
+
+	<sample id="3050" zh="大家好,我们最新FPS&Tower防御游戏铁猫已经正式上线了" en="Everybody is good, our latest FPS&Tower defense game iron cat has officially launched"/>
+	
+	
+	
+	<sample id="5001" zh="box0_cn" en="box0_en"/>
+	<sample id="5002" zh="box1_cn" en="box1_en"/>
+	<sample id="5003" zh="box2_cn" en="box2_en"/>
+	
+	<sample id="5010" zh="goal" en="goal_1"/>
+	<sample id="5011" zh="ranking" en="ranking_1"/>
+	<sample id="5012" zh="freefish" en="freefish_1"/>
+	<sample id="5013" zh="share" en="share_1"/>
+	
+
+	
+
+</objects>

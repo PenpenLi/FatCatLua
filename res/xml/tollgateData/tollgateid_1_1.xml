@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects>
+        <object_0 exp="" gold="" mapID="2" chanceID="55:1" > 
+          <task taskid="0" > 
+                <awarding  itemID="4" num="600" />
+                <awarding  itemID="5" num="30" />
+          </task> 
+          <task taskid="1" taskarg1="100" > 
+                <awarding  itemID="3" num="5" />
+          </task> 
+          <task taskid="3" taskarg1="1" > 
+                <awarding  itemID="3" num="5" />
+          </task> 
+          <task taskid="2" taskarg1="12" > 
+                <awarding  itemID="3" num="5" />
+          </task> 
+        </object_0> 
+        <object index="1" monsterID="54" startPosX="400" nextDelay="5">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="2" monsterID="54" startPosX="250" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="3" monsterID="54" startPosX="360" nextDelay="3">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="4" monsterID="54" startPosX="400" nextDelay="5">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="5" monsterID="54" startPosX="250" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="6" monsterID="54" startPosX="360" nextDelay="3">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="7" monsterID="54" startPosX="200" nextDelay="3">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="8" monsterID="54" startPosX="520" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="9" monsterID="54" startPosX="250" nextDelay="3">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="10" monsterID="55" startPosX="360" nextDelay="3" proicon="progressicon_xiaoguai.png">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="11" monsterID="54" startPosX="200" nextDelay="3">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="12" monsterID="54" startPosX="520" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="13" monsterID="54" startPosX="250" nextDelay="3">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+        <object index="14" monsterID="54" startPosX="500" nextDelay="2">
+                <awarding  itemID="4" num="10" chance="1" />
+        </object>
+</objects>

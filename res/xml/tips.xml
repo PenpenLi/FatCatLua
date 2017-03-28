@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects>
+	<object id="1" head="小贴士" msg="升级武器能更快过关哦，喵~" />
+	<object id="2" head="小贴士" msg="小怪的子弹大多是可以击毁的，喵~" />
+	<object id="3" head="小贴士" msg="合理使用技能能帮助你顺利过关，喵~" />
+	<object id="4" head="小贴士" msg="射击彩蛋，看看有什么惊喜吧，喵~" />
+</objects>

@@ -1,0 +1,872 @@
+{
+  "content_scale": 1.0,
+  "armature_data": [
+    {
+      "strVersion": "1.6.0.0",
+      "version": 1.6,
+      "name": "juedi_effect",
+      "bone_data": [
+        {
+          "name": "Layer32",
+          "parent": "",
+          "dI": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 10,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -1.63965285,
+          "kY": 1.63965285,
+          "arrow_x": 290.6888427734375,
+          "arrow_y": 3.9339858631137758E-05,
+          "effectbyskeleton": true,
+          "bl": 290,
+          "display_data": [
+            {
+              "name": "tt_0008_5.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 148.767334,
+                  "y": 20.5632629,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 1.63965237,
+                  "kY": -1.63965261
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer33",
+          "parent": "Layer32",
+          "dI": 0,
+          "x": -25.215988159179688,
+          "y": -2.2704176902770996,
+          "z": 9,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 3.29718757,
+          "kY": -3.29718757,
+          "arrow_x": 230.86793518066406,
+          "arrow_y": 6.1197715695016086E-06,
+          "effectbyskeleton": true,
+          "bl": 230,
+          "display_data": [
+            {
+              "name": "tt_0009_05.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 101.443291,
+                  "y": -12.2580872,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 4.62565041,
+                  "kY": 1.65753686
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer25",
+          "parent": "",
+          "dI": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 8,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -2.37659979,
+          "kY": 2.37659979,
+          "arrow_x": 144.39768981933594,
+          "arrow_y": -4.3242907850071788E-05,
+          "effectbyskeleton": true,
+          "bl": 144,
+          "display_data": [
+            {
+              "name": "tt_0006_4.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 103.879761,
+                  "y": -50.4490051,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 2.37659645,
+                  "kY": -2.3766017
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer28",
+          "parent": "Layer25",
+          "dI": 0,
+          "x": -2.1882021427154541,
+          "y": 8.29595947265625,
+          "z": 7,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 4.558122,
+          "kY": -4.558122,
+          "arrow_x": 91.549148559570312,
+          "arrow_y": 2.721362398006022E-05,
+          "effectbyskeleton": true,
+          "bl": 91,
+          "display_data": [
+            {
+              "name": "tt_0007_04.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 51.6799,
+                  "y": 14.8143921,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 4.10166359,
+                  "kY": 2.181523
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer19",
+          "parent": "",
+          "dI": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 6,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -1.57079637,
+          "kY": 1.57079637,
+          "arrow_x": 206.66665649414063,
+          "arrow_y": -1.4069391909288243E-05,
+          "effectbyskeleton": true,
+          "bl": 206,
+          "display_data": [
+            {
+              "name": "tt_0004_3.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 154.999924,
+                  "y": -51.1111145,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 1.57079637,
+                  "kY": -1.57079637
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer22",
+          "parent": "Layer19",
+          "dI": 0,
+          "x": -10.000015258789063,
+          "y": 1.111083984375,
+          "z": 5,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 2.5977602,
+          "kY": -2.5977602,
+          "arrow_x": 167.49789428710938,
+          "arrow_y": -5.7373312301933765E-05,
+          "effectbyskeleton": true,
+          "bl": 167,
+          "display_data": [
+            {
+              "name": "tt_0005_03.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 81.0845642,
+                  "y": 28.878479,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.02696145,
+                  "kY": 1.02696514
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer3",
+          "parent": "",
+          "dI": 0,
+          "x": -1.2142819166183472,
+          "y": 8.3876285552978516,
+          "z": 4,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -1.59887886,
+          "kY": 1.59887886,
+          "arrow_x": 127.19302368164063,
+          "arrow_y": -8.1639343989081681E-05,
+          "effectbyskeleton": true,
+          "bl": 127,
+          "display_data": [
+            {
+              "name": "tt_0000_1.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 64.1689,
+                  "y": 10.202239,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 1.59887922,
+                  "kY": -1.59887624
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer5",
+          "parent": "",
+          "dI": 0,
+          "x": -0.49999624490737915,
+          "y": -3.7552282810211182,
+          "z": 3,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 0.4255429,
+          "kY": -0.4255429,
+          "arrow_x": 109.00762939453125,
+          "arrow_y": 2.3568922188133E-05,
+          "effectbyskeleton": true,
+          "bl": 109,
+          "display_data": [
+            {
+              "name": "tt_0001_01.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 8.84884548,
+                  "y": -27.8289948,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.425542831,
+                  "kY": 0.425542474
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer8",
+          "parent": "",
+          "dI": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -1.48690951,
+          "kY": 1.48690951,
+          "arrow_x": 334.17510986328125,
+          "arrow_y": 2.1526233467739075E-05,
+          "effectbyskeleton": true,
+          "bl": 334,
+          "display_data": [
+            {
+              "name": "tt_0002_2.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 167.8924,
+                  "y": 18.5612488,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 1.4869107,
+                  "kY": -1.48691189
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Layer11",
+          "parent": "Layer8",
+          "dI": 0,
+          "x": 8.40048599243164,
+          "y": 1.27972412109375,
+          "z": 1,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 2.74944782,
+          "kY": -2.74944782,
+          "arrow_x": 210.94313049316406,
+          "arrow_y": -4.3047708459198475E-05,
+          "effectbyskeleton": true,
+          "bl": 210,
+          "display_data": [
+            {
+              "name": "tt_0003_02.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 99.87525,
+                  "y": -42.2957458,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.26254,
+                  "kY": 1.26253879
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animation_data": [
+    {
+      "name": "juedi_effect",
+      "mov_data": [
+        {
+          "name": "play1",
+          "dr": 31,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 0.5,
+          "mov_bone_data": [
+            {
+              "name": "Layer3",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 0.9,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "Layer5",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 0.9,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "play2",
+          "dr": 30,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 0.5,
+          "mov_bone_data": [
+            {
+              "name": "Layer8",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 0.98,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": -0.08726646,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "Layer11",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "play3",
+          "dr": 30,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 0.5,
+          "mov_bone_data": [
+            {
+              "name": "Layer19",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 0.95,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.06981317,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "Layer22",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "play4",
+          "dr": 30,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 0.5,
+          "mov_bone_data": [
+            {
+              "name": "Layer25",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 0.95,
+                  "cY": 1.0,
+                  "kX": 0.17453292,
+                  "kY": -0.2268928,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "Layer28",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "play5",
+          "dr": 30,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 0.5,
+          "mov_bone_data": [
+            {
+              "name": "Layer32",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 0.95,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "Layer33",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "texture_data": [
+    {
+      "name": "tt_0000_1",
+      "width": 221.0,
+      "height": 182.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "tt_0001_01",
+      "width": 223.0,
+      "height": 134.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "tt_0002_2",
+      "width": 337.0,
+      "height": 367.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "tt_0003_02",
+      "width": 320.0,
+      "height": 238.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "tt_0004_3",
+      "width": 219.0,
+      "height": 320.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "tt_0005_03",
+      "width": 214.0,
+      "height": 203.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "tt_0006_4",
+      "width": 172.0,
+      "height": 229.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "tt_0007_04",
+      "width": 93.0,
+      "height": 143.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "tt_0008_5",
+      "width": 337.0,
+      "height": 433.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "tt_0009_05",
+      "width": 337.0,
+      "height": 302.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    }
+  ],
+  "config_file_path": [
+    "juedi_effect0.plist"
+  ],
+  "config_png_path": [
+    "juedi_effect0.png"
+  ]
+}

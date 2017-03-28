@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--type 1普通枪 2激光 3散弹 4炮弹 5冰冻枪 6 重机枪 7地雷 8电磁炮
+bulletType   普通子弹 2激光 3散弹 4炮弹 5冰冻枪 6 地雷 7电磁炮
+bulletType 子弹类型
+priceType 3鱼币 4金币
+refire 连发子弹数
+addtionalVec 冰冻时间
+  -->
+<objects>
+	<sample sid="0" maxBulletNum="220" maxAtkSpeed="2.0" maxAtkPower="270"/>
+	<sample sid="1" curLv="1" maxLv="11" name="AK47" style="weapon_1.png" iconStyle="weaponIcon_1.png" type="1" 
+		atkVec="95,100,106,112,118,125,132,140,147,156,165" 
+		bulletNumVec="50,55,58,60,65,70,75,80,85,90,95" 
+		atkSpeedVec="0.4,0.37,0.34,0.31,0.28,0.25,0.22,0.19,0.16,0.13,0.1" 
+		upGoodVec="200,320,450,580,700,800,920,1100,1250,1400,1500" 
+		animation1="qjq_1" animation2="qjq_2" ability="999"
+		reloadTime="6" priceType="4" price="0" bulletType="1" needLv="0"/>
+	
+	<sample sid="2" curLv="1" maxLv="11" name="DDM70" style="weapon_2.png" iconStyle="weaponIcon_2.png" type="1" 
+		atkVec="153,156,158,161,164,167,169,172,175,177,180" 
+		bulletNumVec="40,45,50,55,60,65,70,75,80,85,90" 
+		atkSpeedVec="0.5,0.47,0.44,0.41,0.38,0.35,0.32,0.29,0.26,0.23,0.2" 
+		refire="2"
+		upGoodVec="800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800" 
+		animation1="qjq_1" animation2="qjq_2_1" ability="1080"
+		reloadTime="8" priceType="4" price="600" bulletType="1" needLv="0"/>
+	
+	<sample sid="3" curLv="1" maxLv="11" name="FEEEZING Gun" style="weapon_4.png" iconStyle="weaponIcon_4.png" type="5" 
+		atkVec="20,23,28,31,34,40,46,53,62,70,78" 
+		bulletNumVec="30,35,40,45,50,55,60,65,70,75,80" 
+		atkSpeedVec="0.70,0.67,0.64,0.61,0.58,0.55,0.52,0.49,0.46,0.43,0.40" 
+		addtionalVec="4,4.6,5.2,5.8,6.4,7,7.6,8.2,8.8,9.4,10" 
+		upGoodVec="1200,2100,3000,3900,4800,5700,6600,7500,8400,9300,10200" 
+		animation1="qjq_1" animation2="bd_2" ability="1194" 
+		reloadTime="6" priceType="4" price="2000" bulletType="5" needLv="0"/>
+	
+	<sample sid="4" curLv="1" maxLv="11" name="LELGun" style="weapon_11.png" iconStyle="weaponIcon_11.png" type="1" 
+		atkVec="90,93,95,98,101,104,106,109,112,114,117" 
+		bulletNumVec="50,52,54,58,62,66,70,72,74,77,80" 
+		atkSpeedVec="0.50,0.47,0.44,0.41,0.38,0.35,0.32,0.29,0.26,0.23,0.20" 
+		upGoodVec="2000,3200,4600,5800,7100,8400,9700,11000,12300,13600,14900"
+		animation1="qjq_1" animation2="diancipao" ability="1277"
+		reloadTime="8" priceType="4" price="5000" bulletType="7" needLv="0"/>
+	
+	<sample sid="5" curLv="1" maxLv="11" name="S-MIN" style="weaponIcon_10.png" iconStyle="weaponIcon_10.png" type="1" 
+		atkVec="900,916,932,948,964,981,997,1013,1029,1045,1062" 
+		bulletNumVec="2,2,2,2,3,3,3,3,4,4,4" 
+		atkSpeedVec="1.8,1.77,1.74,1.71,1.68,1.65,1.62,1.59,1.56,1.53,1.5" 
+		upGoodVec="2500,3200,4600,5800,7100,8400,9700,11000,12300,13600,14900"
+		animation1="zdy" animation2="zdy" ability="1380" 
+		reloadTime="6" priceType="4" price="5000" bulletType="6" needLv="8"/>
+	
+	<sample sid="6" curLv="1" maxLv="11" name="EOASTER" style="weapon_6.png" iconStyle="weaponIcon_6.png" type="3" 
+		atkVec="396,410,425,439,454,468,482,497,511,525,540" 
+		bulletNumVec="30,32,34,36,38,40,42,44,46,48,50" 
+		atkSpeedVec="1.00,0.97,0.94,0.91,0.88,0.85,0.82,0.79,0.76,0.73,0.70" 
+		upGoodVec="2800,4200,5600,7000,8400,9800,11200,126000,14000,15400,16800"
+		animation1="qjq_1" animation2="qjq_2_2" ability="1513" 
+		reloadTime="6" priceType="4" price="8000" bulletType="3" needLv="18"/>
+	
+	<sample sid="7" curLv="1" maxLv="11" name="LASER" style="weapon_7.png" iconStyle="weaponIcon_7.png" type="2" 
+		atkVec="360,360,361,361,362,362,363,363,364,364,365" 
+		bulletNumVec="31,34,45,41,44,48,51,54,56,58,60" 
+		atkSpeedVec="0.4,0.37,0.34,0.31,0.28,0.25,0.22,0.19,0.16,0.13,0.10" 
+		upGoodVec="4200,6800,9400,12000,14600,17200,19800,22400,25000,27600,30200"
+		animation1="qjq_1" animation2="jg" ability="1640"
+		reloadTime="8" priceType="4" price="12000" bulletType="2" needLv="20"/>
+	
+	<sample sid="8" curLv="1" maxLv="11" name="GATLIN" style="weapon_8.png" iconStyle="weaponIcon_8.png" type="1" 
+		atkVec="54,55,56,57,58,59,60,61,62,63,64" 
+		bulletNumVec="150,155,160,165,170,175,180,185,190,195,200" 
+		atkSpeedVec="0.1,0.092,0.084,0.076,0.068,0.06,0.052,0.044,0.036,0.028,0.02" 
+		upGoodVec="4500,7200,9900,12600,15300,18000,0,0,0,0,0" 
+		upFishVec = "0,0,0,0,0,0,20,30,35,42,48"
+		animation1="zjq_1" animation2="zjq_2" ability="1775" 
+		reloadTime="8" priceType="3" price="120" bulletType="1" needLv="30"/>	
+	
+	<sample sid="9" curLv="1" maxLv="11" name="BOMB Gun" style="weapon_9.png" iconStyle="weaponIcon_9.png" type="4" 
+		atkVec="450,477,504,531,558,585,612,639,666,693,720" 
+		bulletNumVec="15,17,18,20,22,24,26,27,28,29,30" 
+		atkSpeedVec="1,0.97,0.94,0.91,0.88,0.85,0.82,0.79,0.76,0.73,0.7" 
+		upGoodVec="4800,8200,11600,15000,18400,21800,0,0,0,0,0" 
+		upFishVec = "0,0,0,0,0,0,30,40,50,60,70"
+		animation1="pao_1" animation2="pao_2" ability="1892" 
+		reloadTime="10" priceType="3" price="300" bulletType="4" needLv="35"/>
+</objects>

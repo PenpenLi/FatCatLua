@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>eff_bonus_4.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>eff_bonus_4</name>
+            <delay>0.05</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>bonus_4_000.png</spriteFrame>
+            <spriteFrame>bonus_4_001.png</spriteFrame>
+            <spriteFrame>bonus_4_002.png</spriteFrame>
+            <spriteFrame>bonus_4_003.png</spriteFrame>
+            <spriteFrame>bonus_4_004.png</spriteFrame>
+            <spriteFrame>bonus_4_005.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

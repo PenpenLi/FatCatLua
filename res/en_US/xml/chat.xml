@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects>
+	<!--sid="id" pic="人物图片" pos="坐标" name="人名" desc="内容" -->
+	<sample sid="0" pic="" name="" desc=" " />
+	<sample sid="1" pic="rolehead_1" name="Meow" nexttip="Next step" desc="Welcome to Meow World, bring weapons and join us to save Cat Planet together! Beat back enemy attacks to protect our planet! Meow~" />
+	<sample sid="2" pic="rolehead_1" name="Meow" nexttip="I know" desc="To start,you need to equip one weapon~" />
+	<sample sid="3" pic="rolehead_1" name="Meow" nexttip="I know" desc="Bring Mini with you and do not underestimate its power~" />
+	<sample sid="4" pic="rolehead_1" name="Meow" nexttip="I know" desc="That's it.Great job! Meow~" />
+	<sample sid="5" pic="rolehead_1" name="Meow" nexttip="I know" desc="You've unlocked a new weapon,just try it! Meow~" />
+	<sample sid="6" pic="rolehead_1" name="Meow" nexttip="I know" desc="During the fighting, you can change weapons at any time ! Meow~" />
+	<sample sid="7" pic="rolehead_1" name="Meow" nexttip="I know" desc="It will take some time to reload magazine, let's do it before more monsters come. Meow~" />
+	<sample sid="8" pic="rolehead_1" name="Meow" nexttip="I know" desc="So many enemies, let's try full screen. Meow~" />
+	<sample sid="9" pic="rolehead_1" name="Meow" nexttip="I know" desc="Well done, but more and more enemies are here, let's try Timeline to slow them down." />
+	<sample sid="10" pic="rolehead_1" name="Meow" nexttip="I know" desc="We need some time to recover energy, and it can't be released before fully recovered" />
+</objects>
+

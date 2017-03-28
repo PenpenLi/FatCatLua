@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- 获得升级成就　type 默认为２　id 默认为顺序号　gold 金钱奖励　　fish 鱼币奖励　name 成就名字　　description 成就描述 -->
+<objects>
+      <sample gold="10" fish="0" num="3" nameEn="" name="升级成就1" description="203" />
+	  <sample gold="10" fish="10" num="5" nameEn="" name="升级成就2" description="203" />
+	  <sample gold="0" fish="30" num="10" nameEn="" name="升级成就3" description="203" />
+</objects>

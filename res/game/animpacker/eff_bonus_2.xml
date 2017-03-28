@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>eff_bonus_2.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>eff_bonus_2</name>
+            <delay>0.05</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>bonus_2_000.png</spriteFrame>
+            <spriteFrame>bonus_2_001.png</spriteFrame>
+            <spriteFrame>bonus_2_002.png</spriteFrame>
+            <spriteFrame>bonus_2_003.png</spriteFrame>
+            <spriteFrame>bonus_2_004.png</spriteFrame>
+            <spriteFrame>bonus_2_005.png</spriteFrame>
+            <spriteFrame>bonus_2_006.png</spriteFrame>
+            <spriteFrame>bonus_2_007.png</spriteFrame>
+            <spriteFrame>bonus_2_008.png</spriteFrame>
+            <spriteFrame>bonus_2_009.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

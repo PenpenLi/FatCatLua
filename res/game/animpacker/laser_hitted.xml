@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>laser_hitted.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>laser_hitted</name>
+            <delay>0.017</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>jg20001.png</spriteFrame>
+            <spriteFrame>jg20001.png</spriteFrame>
+            <spriteFrame>jg20002.png</spriteFrame>
+            <spriteFrame>jg20002.png</spriteFrame>
+            <spriteFrame>jg20003.png</spriteFrame>
+            <spriteFrame>jg20003.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

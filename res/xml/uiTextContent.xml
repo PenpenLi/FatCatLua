@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<uis>
+	<ui id="1" name="PhysicalPowerAlertLayer" type="TextBMFont" path="BitmapFontLabel_1" value="It will cost 1 stamina point if you quit now~"/>
+	<ui id="2" name="GameWinLayer" type="TextBMFont" path="Panel_normal/BitmapFontLabel_alert" value="Do not kill hostage if you don't wanna die"/>
+	<ui id="3" name="GameWinLayer" type="TextBMFont" path="BitmapFontLabel_title" value="Stage %s"/>
+	<ui id="4" name="GameWinLayer_gift" type="TextBMFont" path="BitmapFontLabel_title" value="Stage %s"/>
+	<ui id="5" name="GameWinLayer_gift" type="TextBMFont" path="BitmapFontLabel_1" value="Awards List"/>
+	<ui id="6" name="GamePauseLayer_normal" type="TextBMFont" path="Image_bg/BitmapFontLabel_tollgate" value="Stage %s"/>
+	<ui id="7" name="GameTaskLayer_normal" type="TextBMFont" path="Image_bg/BitmapFontLabel_task_tollgate" value="Stage %s"/>
+	<ui id="8" name="GameTaskLayer_normal" type="TextBMFont" path="Image_bg/Panel_content_normal/BitmapFontLabel_alert" value="Do not kill hostage if you don't wanna die"/>
+	<ui id="9" name="GameTaskLayer_gift" type="TextBMFont" path="Panel_gift/BitmapFontLabel_task_tollgate" value="Stage %s"/>
+	<ui id="10" name="GameTaskLayer_gift" type="TextBMFont" path="Panel_gift/BitmapFontLabel_task_content1" value="Benifit is coming!"/>
+	<ui id="11" name="GameRankLayer_invite" type="TextBMFont" path="Panel_friend/label_connect_facebook" value="CONNECT TO FIND MORE FRIENDS:"/>
+	<ui id="12" name="GameRankLayer_invite" type="TextBMFont" path="Panel_friend/label_invite_facebook" value="INVITE FRIENDS TO PLAY IRONCAT:"/>
+	<ui id="13" name="GameFight_ExchangeSkill" type="TextBMFont" path="BitmapFontLabel_autobuy" value="Auto purchase"/>
+	<ui id="13" name="PetLayerCsb" type="TextBMFont" path="lockedImage/BitmapFontLabel_25" value="Locked"/>
+</uis>

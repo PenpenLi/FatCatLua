@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- 击败小怪数量成就　type 默认为０　id 默认为顺序号　gold 金钱奖励　　fish 鱼币奖励　num 目标数量　num2　星级目标数量 name 成就名字　　description 成就描述 -->
+	
+<objects>
+      <sample gold="50" fish="5" num="200" num2="50,70,80" nameEn="" name="杀怪成就1" description="201" />
+	  <sample gold="150" fish="30" num="500" num2="100,150,250" nameEn="" name="杀怪成就2" description="201" />
+	  <sample gold="280" fish="40" num="1000" num2="200,300,500" nameEn="" name="杀怪成就3" description="201" />
+</objects>

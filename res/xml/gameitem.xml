@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- type 1 普通小怪物  type 2 奖励类型怪 type 101 Boss-->
+<objects>
+	<object id="1" name="体力"/>
+	<object id="2" name="血"/>
+	<object id="3" name="小鱼干"/>
+	<object id="4" name="金币"/>
+	<object id="5" name="经验"/>
+	<object id="6" name="RMB"/>
+	<object id="7" name="钢铁侠碎片"/>
+	<object id="8" name="美国队长碎片"/>
+</objects>

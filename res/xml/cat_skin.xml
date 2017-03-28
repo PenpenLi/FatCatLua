@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects>
+	<sample sid="1" name="302" style="maoPF1_Animation" blackStyle="skin1_b.png" iconStyle="skin1_h.png" ragmentStyle="skin1_h1.png" curNum="0" needNum="0" 
+			descid="14" desc="" needTip="17"/>
+	<sample sid="2" name="303" style="maoPF2_Animation" blackStyle="skin2_b.png" iconStyle="skin2_h.png" ragmentStyle="skin2_h1.png" curNum="0" needNum="20" 
+			descid="15" desc="" needTip="17"/>
+	<sample sid="3" name="304" style="maoPF3_Animation" blackStyle="skin3_b.png" iconStyle="skin3_h.png" ragmentStyle="skin3_h1.png" curNum="0" needNum="30" 
+			descid="16" desc="" needTip="17"/>
+</objects>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- type
+	Item_PhysicalPower, //1 1
+	Item_HealthPower, //血 2
+	Item_DriedFilsh, //小鱼干 3
+	Item_Gold, //4 4
+	Item_Exp, //5 5
+	Item_RMB, //人民币 6
+	Item_RolePiece_IronMan, //钢铁侠碎片 7
+	Item_RolePiece_CaptainAmerica, //美国队长碎片	8
+	Item_Skill_Shield,  //护盾 9
+	Item_Skill_Bomb,  //10 10
+	Item_Skill_Frozen,  //冰封 11
+ -->
+<objects>
+	<sample day="1" isdouble="0" type="5" num="20"/>
+	<sample day="2" isdouble="0" type="4" num="200"/>
+	<sample day="3" isdouble="0" type="1" num="1"/>
+	<sample day="4" isdouble="0" type="3" num="5"/>
+	<sample day="5" isdouble="0" type="11" num="1"/>
+	<sample day="6" isdouble="1" type="4" num="500"/>
+	<sample day="7" isdouble="0" type="4" num="100"/>
+	<sample day="8" isdouble="0" type="7" num="1"/>
+	<sample day="9" isdouble="0" type="1" num="2"/>
+	<sample day="10" isdouble="0" type="5" num="40"/>
+	<sample day="11" isdouble="0" type="4" num="500"/>
+	<sample day="12" isdouble="0" type="1" num="2"/>
+	<sample day="13" isdouble="0" type="3" num="10"/>
+	<sample day="14" isdouble="0" type="9" num="1"/>
+	<sample day="15" isdouble="1" type="4" num="600"/>
+	<sample day="16" isdouble="0" type="4" num="200"/>
+	<sample day="17" isdouble="0" type="7" num="1"/>
+	<sample day="18" isdouble="0" type="1" num="2"/>
+	<sample day="19" isdouble="0" type="5" num="60"/>
+	<sample day="20" isdouble="0" type="4" num="600"/>
+	<sample day="21" isdouble="0" type="1" num="1"/>
+	<sample day="22" isdouble="0" type="3" num="20"/>
+	<sample day="23" isdouble="0" type="10" num="2"/>
+	<sample day="24" isdouble="1" type="4" num="800"/>
+	<sample day="25" isdouble="0" type="4" num="300"/>
+	<sample day="26" isdouble="0" type="7" num="1"/>
+	<sample day="27" isdouble="0" type="1" num="2"/>
+	<sample day="28" isdouble="0" type="4" num="200"/>
+	<sample day="29" isdouble="0" type="1" num="1"/>
+	<sample day="30" isdouble="0" type="5" num="20"/>
+	<sample day="31" isdouble="0" type="9" num="1"/>
+	<sample day="32" isdouble="0" type="10" num="1"/>
+	<sample day="33" isdouble="0" type="11" num="1"/>
+	<sample day="34" isdouble="0" type="4" num="300"/>
+	<sample day="35" isdouble="0" type="3" num="20"/>
+	<sample day="36" isdouble="0" type="4" num="400"/>
+	<sample day="37" isdouble="0" type="4" num="500"/>
+	<sample day="38" isdouble="0" type="8" num="1"/>
+	<sample day="39" isdouble="0" type="4" num="600"/>
+	<sample day="40" isdouble="0" type="3" num="30"/>
+	<sample day="41" isdouble="0" type="5" num="50"/>
+	<sample day="42" isdouble="0" type="3" num="35"/>
+	<sample day="43" isdouble="0" type="10" num="2"/>
+	<sample day="44" isdouble="0" type="11" num="2"/>
+	<sample day="45" isdouble="0" type="9" num="2"/>
+	<sample day="46" isdouble="0" type="4" num="700"/>
+	<sample day="47" isdouble="0" type="3" num="40"/>
+	<sample day="48" isdouble="0" type="4" num="800"/>
+	<sample day="49" isdouble="1" type="4" num="500"/>
+	<sample day="50" isdouble="0" type="8" num="1"/>
+	<sample day="51" isdouble="1" type="1" num="2"/>
+	<sample day="52" isdouble="0" type="3" num="50"/>
+	<sample day="53" isdouble="0" type="5" num="60"/>
+	<sample day="54" isdouble="0" type="3" num="50"/>
+</objects>

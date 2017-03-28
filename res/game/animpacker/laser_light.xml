@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>laser_light.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>laser_light</name>
+            <delay>0.017</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>jg10001.png</spriteFrame>
+            <spriteFrame>jg10001.png</spriteFrame>
+            <spriteFrame>jg10002.png</spriteFrame>
+            <spriteFrame>jg10002.png</spriteFrame>
+            <spriteFrame>jg10003.png</spriteFrame>
+            <spriteFrame>jg10003.png</spriteFrame>
+            <spriteFrame>jg10004.png</spriteFrame>
+            <spriteFrame>jg10004.png</spriteFrame>
+            <spriteFrame>jg10005.png</spriteFrame>
+            <spriteFrame>jg10005.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

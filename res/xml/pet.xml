@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- priceType、1体力 3鱼干 4金币 6人民币 atkType 1近战２远战　atkdistance 攻击距离 atk 攻击力 speed 攻击速度(次/秒)-->
+<objects>
+	<sample sid="0" star="1" speed="2" ability="499" atk="10" name="Mini" style="coin_0.png" styleIcon="petName0.png" priceType="3" atkDistance="60" atkType="1" price="1000" needLv="0" desc="101"/>
+	<sample sid="1" star="2" speed="4" ability="920" atk="20" name="kitty" style="coin_1.png" styleIcon="petName1.png" priceType="4" atkDistance="100" atkType="2"price="20000" needLv="0" desc="102"/>
+	<sample sid="2" star="3" speed="8" ability="1435" atk="30" name="Nemon" style="coin_2.png" styleIcon="petName2.png" priceType="3" atkDistance="200" atkType="2" price="300" needLv="0" desc="103"/>
+</objects>

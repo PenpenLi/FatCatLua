@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>eff_torpedo_bomb.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>eff_torpedo_bomb</name>
+            <delay>0.08</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>eff_torpedo_bomb_0001.png</spriteFrame>
+            <spriteFrame>eff_torpedo_bomb_0002.png</spriteFrame>
+            <spriteFrame>eff_torpedo_bomb_0003.png</spriteFrame>
+            <spriteFrame>eff_torpedo_bomb_0004.png</spriteFrame>
+            <spriteFrame>eff_torpedo_bomb_0005.png</spriteFrame>
+            <spriteFrame>eff_torpedo_bomb_0006.png</spriteFrame>
+            <spriteFrame>eff_torpedo_bomb_0007.png</spriteFrame>
+            <spriteFrame>eff_torpedo_bomb_0008.png</spriteFrame>
+            <spriteFrame>eff_torpedo_bomb_0009.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

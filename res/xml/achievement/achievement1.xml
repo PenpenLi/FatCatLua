@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- 获得三星关卡数量成就　type 默认为１　id 默认为顺序号　gold 金钱奖励　　fish 鱼币奖励　name 成就名字　　description 成就描述 -->
+<objects>
+      <sample gold="10" fish="10" num="5" nameEn="" name="关卡成就1" description="202" />
+	  <sample gold="100" fish="20" num="10" nameEn="" name="关卡成就2" description="202" />
+	  <sample gold="300" fish="40" num="20" nameEn="" name="关卡成就3" description="202" />
+</objects>

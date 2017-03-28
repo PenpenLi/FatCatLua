@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>eff_meteorite_boom.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>eff_meteorite_boom</name>
+            <delay>0.1</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>eff_meteorite_boom_001.png</spriteFrame>
+            <spriteFrame>eff_meteorite_boom_002.png</spriteFrame>
+            <spriteFrame>eff_meteorite_boom_003.png</spriteFrame>
+            <spriteFrame>eff_meteorite_boom_004.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

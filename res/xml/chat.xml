@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects>
+	<!--sid="id" pic="人物图片" pos="坐标" name="人名" desc="内容" -->
+	<sample sid="0" pic="" name="" desc=" " />
+	<sample sid="1" pic="rolehead_1" name="喵喵" nexttip="下一步" desc="欢迎来到喵~世界，带上武器跟我们一起拯救喵星吧！击退敌人，保护我们的星球！喵~" />
+	<sample sid="2" pic="rolehead_1" name="喵喵" nexttip="朕知道了！" desc="至少要装备一把武器才能上场哦喵~" />
+	<sample sid="3" pic="rolehead_1" name="喵喵" nexttip="朕知道了！" desc="带上Mini 不要小看宠物的力量哦喵~" />
+	<sample sid="4" pic="rolehead_1" name="喵喵" nexttip="朕知道了！" desc="就是这样 表现得不错 喵~" />
+	<sample sid="5" pic="rolehead_1" name="喵喵" nexttip="朕知道了！" desc="你已经解锁了新武器，快试试吧，喵~" />
+	<sample sid="6" pic="rolehead_1" name="喵喵" nexttip="朕知道了！" desc="战斗中可随时切换武器哦 喵~" />
+	<sample sid="7" pic="rolehead_1" name="喵喵" nexttip="朕知道了！" desc="每次弹夹耗尽会花上一段时间重装弹夹，趁着小怪不多的时候我们提前填满吧 喵~" />
+	<sample sid="8" pic="rolehead_1" name="喵喵" nexttip="朕知道了！" desc="呀，敌方数量变多了，试试全屏大招吧 喵~" />
+	<sample sid="9" pic="rolehead_1" name="喵喵" nexttip="朕知道了！" desc="干得不错，但是敌人数量好像又变多了，试试时间轴，让他们慢下来 喵~" />
+	<sample sid="10" pic="rolehead_1" name="喵喵" nexttip="朕知道了！" desc="看来需要时间恢复下了，能量槽集满了才能进行技能释放哦 喵~" />
+</objects>
+

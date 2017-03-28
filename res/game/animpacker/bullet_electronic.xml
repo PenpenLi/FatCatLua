@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>bullet_electronic.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>bullet_electronic</name>
+            <delay>0.05</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>bullet_electronic_000.png</spriteFrame>
+            <spriteFrame>bullet_electronic_001.png</spriteFrame>
+            <spriteFrame>bullet_electronic_002.png</spriteFrame>
+            <spriteFrame>bullet_electronic_003.png</spriteFrame>
+            <spriteFrame>bullet_electronic_004.png</spriteFrame>
+            <spriteFrame>bullet_electronic_005.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--这里只说明type：1，2，都是表示数量百分比控制，是奖励型任务，3是死亡类型任务 -->
+<objects>
+	<object id="1" type="1" name="HP control" desc="HP More than ?" />
+	<object id="2" type="1" name="Monster number" desc="Killed over ? monsters" />
+	<object id="3" type="1" name="Specified weapon" desc="Use ? weapon to pass the level" />
+	<object id="4" type="1" name="Shoot down meteorites" desc="Shoot down ? meteorites" />
+	<object id="5" type="1" name="Shoot down specified monster" desc="Shoot down ? ? monsters" />
+	<object id="6" type="1" name="Specified weapon Shoot down specified monster" desc="Use weapon ? shoot down ? monsters" />
+	<object id="7" type="2" name="Completion time" desc="Complete the game less than ? seconds" />
+	<object id="8" type="2" name="Limited skill times" desc="Use skill ? no more than ? times" />
+	<object id="9" type="1" name="Times of skill" desc="Use skill ? more than ? times" />
+	<object id="10" type="3" name="Time limited" desc="Pass the level with in ?s" />
+	<object id="11" type="4" name="Limited magazine" desc="Every gun just got one magazine" />
+	<object id="12" type="3" name="Save Cat" desc="Killed more than ? cats,game failed" />
+</objects>

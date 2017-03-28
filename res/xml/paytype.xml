@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objects>
+	<object id="1" name="google" pmid="google"/>
+	<object id="2" name="myclear_FPX" pmid="fpx_my"/>
+	<object id="3" name="Hong_Leong" pmid="hlb_my"/>
+	<object id="4" name="maybank2u" pmid="maybank2u_my"/>
+	<object id="5" name="CIMB_clicks" pmid="cimb_my"/>
+	<object id="6" name="Affin_Bank" pmid="affinepg_my"/>
+	<object id="7" name="Amonline" pmid="amb_my"/>
+	<object id="8" name="RHB_Now" pmid="rhb_my"/>
+	<object id="9" name="molwallet" pmid="molwallet_my"/>
+	<object id="10" name="web_cash" pmid="webcash_my"/>
+	<object id="11" name="7_eleven" pmid="7eleven_my"/>
+	<object id="12" name="esapay" pmid="esapay_my"/>
+	<object id="13" name="epay" pmid="epay_my"/>
+	<object id="14" name="enets" pmid="enets_sg"/>
+	<object id="15" name="sam_sing_post" pmid="singpost_sg"/>
+	<object id="16" name="Nganluong" pmid="nganluong_vn"/>
+	<object id="17" name="dragonpay" pmid="dragonpay_ph"/>
+	<object id="18" name="cherrycredits" pmid="cherrycredits"/>
+	<object id="19" name="MOLpoints" pmid="molpoints"/>
+	<object id="20" name="GASH" pmid="gash_tw"/>
+	
+</objects>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--  file角色动画文件 arname 角色动画名字  name 角色名字 count角色攻击方向有多少个-->
+<objects>
+	<object id="1" file="game/role/m_Animation.ExportJson" count="5" arname="m_Animation" name="小喵喵" desc="喵喵喵喵喵喵喵喵喵喵" />
+	<object id="2" file="game/role/gtx_Animation.ExportJson"  count="5" arname="gtx_Animation" name="钢铁侠" desc="啪啪啪啪啪啪啪啪啪" />
+	<object id="3" file="game/role/mgdz_Animation.ExportJson"  count="5" arname="mgdz_Animation" name="美国队长" desc="哔哔哔哔哔哔哔哔哔" />
+</objects>

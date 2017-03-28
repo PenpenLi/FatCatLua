@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--这里只说明type：1，2，都是表示数量百分比控制，是奖励型任务，3是死亡类型任务 -->
+<objects>
+	<object id="1" type="1" name="血量控制" desc="血量不低于?" />
+	<object id="2" type="1" name="小怪数量" desc="杀死小怪超过?个" />
+	<object id="3" type="1" name="指定武器" desc="使用武器?过关" />
+	<object id="4" type="1" name="击落陨石" desc="击落陨石?个" />
+	<object id="5" type="1" name="击落特定小怪" desc="击败?只?" />
+	<object id="6" type="1" name="指定武器击落特定小怪" desc="使用武器?击败?只小怪" />
+	<object id="7" type="2" name="完成时间" desc="通关时间少于?秒" />
+	<object id="8" type="2" name="限制触发技能次数" desc="触发技能?不多于?次" />
+	<object id="9" type="1" name="触发技能次数" desc="使用技能?超过?次" />
+	<object id="10" type="3" name="规定时间通关" desc="在规定时间?S内通关" />
+	<object id="11" type="4" name="弹夹限制" desc="每支枪只有一个弹夹" />
+	<object id="12" type="3" name="拯救喵星人" desc="杀死?只喵星人，游戏失败" />
+</objects>

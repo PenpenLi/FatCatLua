@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--tape小怪类型 1 竖向小怪 2 横向小怪 3陨石 101boss 4护罩 5彩蛋 6人质
+    attType攻击类型 1 普通子弹  
+   
+    attack boss的攻击方式配置 
+	attType攻击类型 1普通子弹 2散弹 3导弹  
+	attStyle 攻击方式 1直线连续 2散弹连续  第二个参数表示连续发射的数量 3护罩
+	shotInterval 攻击间隔，不是连续发射子弹的间隔 如果attstyle为3，shotInterval为持续时间
+	attnum 伤害
+	speed 速度 
+	accelerate 加速度
+	mskill 0普通小怪 1隐身小怪
+  -->
+<objects>
+<object id="0" name="BerBer" type="1" level="1" attType="1" hp="600" attnum="73" shotInterval="1" speed="0,-120" accelerate="0,-30" file="gw1_Animation"/>
+	
+	<object id="1" name="BerBer" type="1" level="1" attType="1" hp="300" attnum="73" shotInterval="5" speed="10,-50" accelerate="0,-2" file="gw1_Animation"/>
+	<object id="2" name="BerBer" type="1" level="1" attType="1" hp="300" attnum="73" shotInterval="5" speed="-10,-50" accelerate="0,-2" file="gw1_Animation"/>
+	<object id="3" name="BerBer" type="1" level="1" attType="1" hp="300" attnum="73" shotInterval="5" speed="0,-50" accelerate="0,-2" file="gw1_Animation"/>
+	
+	<object id="4" name="Milk2" type="1" level="1" attType="1" hp="500" attnum="95" shotInterval="3" speed="10,-45" accelerate="0,-2" file="g12_Animation"/>
+	<object id="5" name="Milk2" type="1" level="1" attType="1" hp="500" attnum="95" shotInterval="3" speed="-10,-45" accelerate="0,-2" file="g12_Animation"/>
+	<object id="6" name="Milk2" type="1" level="1" attType="1" hp="500" attnum="95" shotInterval="3" speed="0,-45" accelerate="0,-2" file="g12_Animation"/>
+	
+	<object id="7" name="Milk3" type="1" level="1" attType="1" hp="700" attnum="100" shotInterval="1.8" speed="10,-40" accelerate="0,-2" file="g9_Animation"/>
+	<object id="8" name="Milk3" type="1" level="1" attType="1" hp="700" attnum="100" shotInterval="1.8" speed="-10,-40" accelerate="0,-2" file="g9_Animation"/>
+	<object id="9" name="Milk3" type="1" level="1" attType="1" hp="700" attnum="100" shotInterval="1.8" speed="0,-40" accelerate="0,-2" file="g9_Animation"/>
+	
+	<object id="10" name="Milkboss" type="101" level="1" attType="0" hp="8000" attnum="500" shotInterval="0" speed="0,-180" accelerate="0,-30" file="gw3_Animation">
+        <attack attType="1" attStyle="1" bulletNum="3" shotInterval="5" />
+		<attack attType="1" attStyle="2" bulletNum="1" shotInterval="5" />
+	    <attack attType="3" attStyle="1" bulletNum="1" shotInterval="2" />
+	</object>
+	
+	<object id="11" name="green" mskill="1" type="1" level="1" attType="1" hp="900" attnum="73" shotInterval="2" speed="10,-20" accelerate="0,-1" file="g6_Animation"/>
+	<object id="12" name="green" mskill="1"  type="1" level="1" attType="1" hp="900" attnum="73" shotInterval="2" speed="-10,-20" accelerate="0,-1" file="g6_Animation"/>
+	<object id="13" name="green" mskill="1" type="1" level="1" attType="1" hp="900" attnum="73" shotInterval="2" speed="0,-20" accelerate="0,-1" file="g6_Animation"/>
+	
+	<object id="14" name="green2" type="1" level="1" attType="1" hp="1200" attnum="1100" shotInterval="1.8" speed="10,-45" accelerate="0,-2" file="g1_Animation"/>
+	<object id="15" name="green2" type="1" level="1" attType="1" hp="1200" attnum="1100" shotInterval="1.8" speed="-10,-45" accelerate="0,-2" file="g1_Animation"/>
+	<object id="16" name="green2" type="1" level="1" attType="1" hp="1200" attnum="1100" shotInterval="1.8" speed="0,-45" accelerate="0,-2" file="g1_Animation"/>
+	
+	<object id="17" name="green3" type="1" level="1" attType="1" hp="1500" attnum="1200" shotInterval="1.8" speed="10,-50" accelerate="0,-2" file="g8_Animation"/>
+	<object id="18" name="green3" type="1" level="1" attType="1" hp="1500" attnum="1200" shotInterval="1.8" speed="-10,-50" accelerate="0,-2" file="g8_Animation"/>
+	<object id="19" name="green3" type="1" level="1" attType="1" hp="1500" attnum="1200" shotInterval="1.8" speed="0,-50" accelerate="0,-2" file="g8_Animation"/>
+	
+	<object id="20" name="BGboss" type="101" level="1" attType="0" hp="8000" attnum="500" shotInterval="0" speed="0,-180" accelerate="0,-30" file="gw3_Animation">
+		<attack attType="2" attStyle="1" bulletNum="1" shotInterval="5" />
+		<attack attType="1" attStyle="1" bulletNum="1" shotInterval="5" />
+		<attack attType="2" attStyle="1" bulletNum="2" shotInterval="8" />
+		<attack attType="1" attStyle="2" bulletNum="1" shotInterval="5" />
+		<attack attType="1" attStyle="1" bulletNum="2" shotInterval="6" />
+	</object>	
+	
+	<object id="21" name="blue" type="1" level="1" attType="1" hp="320" attnum="800" shotInterval="2" speed="10,-50" accelerate="0,-2" file="g11_Animation"/>
+	<object id="22" name="blue" type="1" level="1" attType="1" hp="320" attnum="800" shotInterval="2" speed="-10,-50" accelerate="0,-2" file="g11_Animation"/>
+	<object id="23" name="blue" type="1" level="1" attType="1" hp="320" attnum="800" shotInterval="2" speed="0,-50" accelerate="0,-2" file="g11_Animation"/>
+	
+	<object id="24" name="blue2" type="1" level="1" attType="1" hp="800" attnum="95" shotInterval="1.8" speed="10,-50" accelerate="0,-2" file="g13_Animation"/>
+	<object id="25" name="blue2" type="1" level="1" attType="1" hp="800" attnum="95" shotInterval="1.8" speed="-10,-50" accelerate="0,-2" file="g13_Animation"/>
+	<object id="26" name="blue2" type="1" level="1" attType="1" hp="800" attnum="95" shotInterval="1.8" speed="0,-50" accelerate="0,-2" file="g13_Animation"/>
+	
+	<object id="27" name="blue3" type="1" level="1" attType="1" hp="1000" attnum="100" shotInterval="1.8" speed="10,-40" accelerate="0,-3" file="g14_Animation"/>
+	<object id="28" name="blue3" type="1" level="1" attType="1" hp="1000" attnum="100" shotInterval="1.8" speed="-10,-40" accelerate="0,-3" file="g14_Animation"/>
+	<object id="29" name="blue3" type="1" level="1" attType="1" hp="1000" attnum="100" shotInterval="1.8" speed="0,-50" accelerate="0,-3" file="g14_Animation"/>
+	
+	<object id="30" name="BGboss" type="101" level="1" attType="0" hp="10000" attnum="500" shotInterval="0" speed="0,-180" accelerate="0,-30" file="gw3_Animation">
+		<attack attType="3" attStyle="1" bulletNum="1" shotInterval="2" />
+		<attack attType="1" attStyle="1" bulletNum="3" shotInterval="5" />
+		<attack attType="1" attStyle="1" bulletNum="5" shotInterval="8" />
+		<attack attType="1" attStyle="2" bulletNum="1" shotInterval="5" />
+		<attack attType="2" attStyle="1" bulletNum="5" shotInterval="2" />
+		<attack attType="1" attStyle="3" bulletNum="1" shotInterval="6" />
+	</object>	
+	
+	<object id="31" name="purple" type="1" level="1" attType="1" hp="600" attnum="73" shotInterval="2" speed="10,-50" accelerate="0,-2" file="g5_Animation"/>
+	<object id="32" name="purple" type="1" level="1" attType="1" hp="600" attnum="73" shotInterval="2" speed="-10,-50" accelerate="0,-2" file="g5_Animation"/>
+	<object id="33" name="purple" type="1" level="1" attType="1" hp="600" attnum="73" shotInterval="2" speed="0,-50" accelerate="0,-2" file="g5_Animation"/>
+	
+	<object id="34" name="purple2" type="1" level="1" attType="1" hp="1000" attnum="95" shotInterval="1.8" speed="10,-50" accelerate="0,-2" file="g4_Animation"/>
+	<object id="35" name="purple2" type="1" level="1" attType="1" hp="1000" attnum="95" shotInterval="1.8" speed="-10,-50" accelerate="0,-2" file="g4_Animation"/>
+	<object id="36" name="purple2" type="1" level="1" attType="1" hp="1000" attnum="95" shotInterval="1.8" speed="0,-50" accelerate="0,-2" file="g4_Animation"/>
+	
+	<object id="37" name="purple3" type="1" level="1" attType="1" hp="1100" attnum="100" shotInterval="1.8" speed="10,-40" accelerate="0,-2" file="g7_Animation"/>
+	<object id="38" name="purple3" type="1" level="1" attType="1" hp="1100" attnum="100" shotInterval="1.8" speed="-10,-40" accelerate="0,-2" file="g7_Animation"/>
+	<object id="39" name="purple3" type="1" level="1" attType="1" hp="1100" attnum="100" shotInterval="1.8" speed="0,-50" accelerate="0,-2" file="g7_Animation"/>
+	
+	<object id="40" name="purpleboss" type="101" level="1" attType="0" hp="12000" attnum="500" shotInterval="0" speed="0,-180" accelerate="0,-30" file="boss1_Animation">
+		<attack attType="3" attStyle="1" bulletNum="2" shotInterval="2" />
+		<attack attType="1" attStyle="1" bulletNum="3" shotInterval="5" />
+		<attack attType="1" attStyle="1" bulletNum="5" shotInterval="8" />
+		<attack attType="1" attStyle="2" bulletNum="1" shotInterval="5" />
+		<attack attType="2" attStyle="1" bulletNum="5" shotInterval="2" />
+		<attack attType="1" attStyle="3" bulletNum="2" shotInterval="6" />
+	</object>	
+	
+	<object id="41" name="orange" type="1" level="1" attType="1" hp="500" attnum="73" shotInterval="2" speed="10,-50" accelerate="0,-2" file="g10_Animation"/>
+	<object id="42" name="orange" type="1" level="1" attType="1" hp="500" attnum="73" shotInterval="2" speed="-10,-50" accelerate="0,-2" file="g10_Animation"/>
+	<object id="43" name="orange" type="1" level="1" attType="1" hp="500" attnum="73" shotInterval="2" speed="0,-50" accelerate="0,-2" file="g10_Animation"/>
+	
+	<object id="44" name="orange2" type="1" level="1" attType="1" hp="600" attnum="95" shotInterval="1.8" speed="10,-50" accelerate="0,-2" file="g2_Animation"/>
+	<object id="45" name="orange2" type="1" level="1" attType="1" hp="600" attnum="95" shotInterval="1.8" speed="-10,-50" accelerate="0,-2" file="g2_Animation"/>
+	<object id="46" name="orange2" type="1" level="1" attType="1" hp="600" attnum="95" shotInterval="1.8" speed="0,-50" accelerate="0,-2" file="g2_Animation"/>
+	
+	<object id="47" name="orange3" type="1" level="1" attType="1" hp="720" attnum="100" shotInterval="1.8" speed="10,-40" accelerate="0,-2" file="g15_Animation"/>
+	<object id="48" name="orange3" type="1" level="1" attType="1" hp="720" attnum="100" shotInterval="1.8" speed="-10,-40" accelerate="0,-2" file="g15_Animation"/>
+	<object id="49" name="orange3" type="1" level="1" attType="1" hp="720" attnum="100" shotInterval="1.8" speed="0,-50" accelerate="0,2" file="g15_Animation"/>
+	
+	<object id="50" name="orangeboss" type="101" level="1" attType="1" hp="18000" attnum="500" shotInterval="0" speed="0,-180" accelerate="0,-30" file="boss3_Animation">
+		<attack attType="3" attStyle="1" bulletNum="2" shotInterval="3" />
+		<attack attType="1" attStyle="1" bulletNum="3" shotInterval="5" />
+		<attack attType="1" attStyle="1" bulletNum="5" shotInterval="5" />
+		<attack attType="1" attStyle="2" bulletNum="1" shotInterval="5" />
+		<attack attType="2" attStyle="1" bulletNum="5" shotInterval="2" />
+		<attack attType="1" attStyle="3" bulletNum="2" shotInterval="5" />
+	</object>	
+	
+	<object id="51" name="stone" type="3" level="1" attType="1" hp="1000" attnum="1000" shotInterval="1.8" speed="0,-120" accelerate="0,-20" file="yunshi_Animation"/>
+	
+	<object id="52" name="box" type="2" level="1" attType="1" hp="1000" attnum="100" shotInterval="1.8" speed="60,0" accelerate="20,0" file="zcm_Animation"/>
+	
+	<object id="53" name="boot" type="4" level="1" attType="1" hp="300" attnum="100" shotInterval="1.8" speed="0,0" accelerate="10,0" file="effect_bubble"/>
+	
+	<object id="54" name="monsterguide" type="1" level="1" attType="1" hp="80" attnum="100" shotInterval="2" speed="-10,-80" accelerate="0,-2" file="g10_Animation"/>
+	<object id="55" name="monsterguide1" type="1" level="1" attType="1" hp="500" attnum="100" shotInterval="3" speed="0,-70" accelerate="0,-2" file="g7_Animation"/>
+	<object id="56" name="monsterguide2" type="1" level="1" attType="1" hp="300" attnum="100" shotInterval="2" speed="0,-80" accelerate="0,-2" file="g1_Animation"/>
+	
+	<object id="57" name="egg" type="5" level="1" attType="1" hp="300" attnum="100" shotInterval="1.8" speed="0,0" accelerate="10,0" file="effect_bubble"/>
+	
+	<object id="59" name="hostage2" type="6" level="1" attType="1" hp="300" attnum="100" shotInterval="1.8" speed="0,0" accelerate="10,0" file="rzm2_Animation"/>
+	
+	
+	<object id="60" name="red" type="1" level="1" attType="1" hp="500" attnum="95" shotInterval="3" speed="10,-50" accelerate="0,-2" file="xg01_Animation"/>
+	<object id="61" name="red" type="1" level="1" attType="1" hp="500" attnum="95" shotInterval="3" speed="-10,-50" accelerate="0,-2" file="xg01_Animation"/>
+	<object id="62" name="red" type="1" level="1" attType="1" hp="500" attnum="95" shotInterval="3" speed="0,-50" accelerate="0,-2" file="xg01_Animation"/>
+	
+	<object id="63" name="red" type="1" level="1" attType="1" hp="500" attnum="95" shotInterval="3" speed="10,-50" accelerate="0,-2" file="xg02_Animation"/>
+	<object id="64" name="red" type="1" level="1" attType="1" hp="500" attnum="95" shotInterval="3" speed="-10,-50" accelerate="0,-2" file="xg02_Animation"/>
+	<object id="65" name="red" type="1" level="1" attType="1" hp="500" attnum="95" shotInterval="3" speed="0,-50" accelerate="0,-2" file="xg02_Animation"/>
+	
+	<object id="66" name="red" type="1" level="1" attType="1" hp="500" attnum="95" shotInterval="3" speed="10,-50" accelerate="0,-2" file="xg03_Animation"/>
+	<object id="67" name="red" type="1" level="1" attType="1" hp="500" attnum="95" shotInterval="3" speed="-10,-50" accelerate="0,-2" file="xg03_Animation"/>
+	<object id="68" name="red" type="1" level="1" attType="1" hp="500" attnum="95" shotInterval="3" speed="0,-50" accelerate="0,-2" file="xg03_Animation"/>
+	
+	<object id="69" name="redboss" type="101" level="1" attType="1" hp="22000" attnum="500" shotInterval="0" speed="0,-180" accelerate="0,-30" file="boss3_Animation">
+		<attack attType="3" attStyle="1" bulletNum="2" shotInterval="3" />
+		<attack attType="1" attStyle="1" bulletNum="3" shotInterval="5" />
+		<attack attType="1" attStyle="1" bulletNum="5" shotInterval="5" />
+		<attack attType="1" attStyle="2" bulletNum="1" shotInterval="5" />
+		<attack attType="2" attStyle="1" bulletNum="5" shotInterval="2" />
+		<attack attType="1" attStyle="3" bulletNum="2" shotInterval="5" />
+	</object>	
+		
+
+	<object id="70" name="hostage1" type="6" level="1" attType="1" hp="300" attnum="100" shotInterval="1.8" speed="0,0" accelerate="10,0" file="rzm_Animation"/>
+	<object id="71" name="hostage3" type="6" level="1" attType="1" hp="300" attnum="100" shotInterval="1.8" speed="0,0" accelerate="10,0" file="rzm3_Animation"/>
+	
+	<object id="72" name="ball" type="1" level="1" attType="1" hp="320" attnum="800" shotInterval="2" speed="10,-50" accelerate="0,-2" file="gw2_Animation"/>
+	<object id="73" name="ball" type="1" level="1" attType="1" hp="320" attnum="800" shotInterval="2" speed="-10,-50" accelerate="0,-2" file="gw2_Animation"/>
+	<object id="74" name="ball" type="1" level="1" attType="1" hp="320" attnum="800" shotInterval="2" speed="0,-50" accelerate="0,-2" file="gw2_Animation"/>
+	
+	<object id="75" name="stone" type="3" level="1" attType="1" hp="1000" attnum="1000" shotInterval="1.8" speed="10,-120" accelerate="0,-20" file="yunshi_Animation"/>
+	<object id="76" name="stone" type="3" level="1" attType="1" hp="1000" attnum="1000" shotInterval="1.8" speed="-10,-120" accelerate="0,-20" file="yunshi_Animation"/>
+</objects>
+
+ 

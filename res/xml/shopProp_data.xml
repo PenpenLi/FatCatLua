@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- priceType、addtype都是对应联合体GamItem的值，1体力 3鱼干 4金币 6人民币 -->
+<objects>
+	<sample sid="1" name="金币" style="coin_0.png" priceType="3" price="50" addtype="4" addnum="1000" desc="花费50鱼"/>
+	<sample sid="2" name="金币" style="coin_1.png" priceType="3" price="100" addtype="4" addnum="5000" desc="花费100鱼"/>
+	<sample sid="3" name="金币" style="coin_2.png" priceType="3" price="180" addtype="4" addnum="10000" desc="花费180鱼"/>
+	<sample sid="4" name="金币" style="coin_3.png" priceType="3" price="300" addtype="4" addnum="20000" desc="花费300鱼"/>
+	
+	<sample sid="5" name="200鱼币" style="fish_0.png" priceType="6" price="2000" addtype="3" addnum="200" desc="花费6元"/>
+	<sample sid="6" name="500鱼币" style="fish_1.png" priceType="6" price="2001" addtype="3" addnum="500" desc="花费12元"/>
+	<sample sid="7" name="800鱼币" style="fish_2.png" priceType="6" price="2002" addtype="3" addnum="800" desc="花费18元"/>
+	<sample sid="8" name="1200鱼币" style="fish_3.png" priceType="6" price="2003" addtype="3" addnum="1200" desc="花费25元"/>
+	
+	<sample sid="9" name="体力" style="mint_0.png" priceType="3" price="50" addtype="1" addnum="4" desc="花费50鱼"/>
+	<sample sid="10" name="体力" style="mint_1.png" priceType="3" price="80" addtype="1" addnum="10" desc="花费80鱼"/>
+	<sample sid="11" name="体力" style="mint_2.png" priceType="3" price="150" addtype="1" addnum="20" desc="花费150鱼"/>
+	<sample sid="12" name="体力" style="mint_3.png" priceType="3" price="200" addtype="1" addnum="30" desc="花费200鱼"/>
+	
+	<sample sid="13" name="护罩" nameTextId="20" style="icon1.png" priceType="3" price="25" addtype="9" addnum="1" desc="花费25鱼干兑换5个护罩特技"/>
+	<sample sid="14" name="导弹" nameTextId="21" style="icon2.png" priceType="3" price="25" addtype="10" addnum="1" desc="花费25鱼干兑换5个导弹特技"/>
+	<sample sid="15" name="冰冻" nameTextId="22" style="icon3.png" priceType="3" price="25" addtype="11" addnum="1" desc="花费25鱼干兑换5个冰冻特技"/>
+</objects>

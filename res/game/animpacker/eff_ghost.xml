@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>eff_ghost.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>eff_ghost</name>
+            <delay>0.2</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>eff_ghost_001.png</spriteFrame>
+            <spriteFrame>eff_ghost_002.png</spriteFrame>
+            <spriteFrame>eff_ghost_003.png</spriteFrame>
+            <spriteFrame>eff_ghost_004.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

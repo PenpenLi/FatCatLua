@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>laser_effect.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>laser_effect</name>
+            <delay>0.017</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>jg0001.png</spriteFrame>
+            <spriteFrame>jg0001.png</spriteFrame>
+            <spriteFrame>jg0002.png</spriteFrame>
+            <spriteFrame>jg0002.png</spriteFrame>
+            <spriteFrame>jg0003.png</spriteFrame>
+            <spriteFrame>jg0003.png</spriteFrame>
+            <spriteFrame>jg0004.png</spriteFrame>
+            <spriteFrame>jg0004.png</spriteFrame>
+            <spriteFrame>jg0005.png</spriteFrame>
+            <spriteFrame>jg0005.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

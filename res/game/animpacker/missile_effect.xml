@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <plists>
+        <plist>missile_effect.plist</plist>
+    </plists>
+    <animations>
+        <animation>
+            <name>missile_effect</name>
+            <delay>0.017</delay>
+            <flipX>false</flipX>
+            <flipY>false</flipY>
+            <spriteFrame>missile_001.png</spriteFrame>
+            <spriteFrame>missile_001.png</spriteFrame>
+            <spriteFrame>missile_001.png</spriteFrame>
+            <spriteFrame>missile_001.png</spriteFrame>
+            <spriteFrame>missile_001.png</spriteFrame>
+            <spriteFrame>missile_002.png</spriteFrame>
+            <spriteFrame>missile_002.png</spriteFrame>
+            <spriteFrame>missile_002.png</spriteFrame>
+            <spriteFrame>missile_002.png</spriteFrame>
+            <spriteFrame>missile_003.png</spriteFrame>
+            <spriteFrame>missile_003.png</spriteFrame>
+            <spriteFrame>missile_003.png</spriteFrame>
+            <spriteFrame>missile_003.png</spriteFrame>
+            <spriteFrame>missile_004.png</spriteFrame>
+            <spriteFrame>missile_004.png</spriteFrame>
+            <spriteFrame>missile_004.png</spriteFrame>
+            <spriteFrame>missile_004.png</spriteFrame>
+        </animation>
+    </animations>
+</root>

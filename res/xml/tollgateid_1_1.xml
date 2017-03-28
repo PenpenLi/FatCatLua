@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- 
+object_0 当前关卡怪物攻击概率
+startPosX 小怪初始X坐标
+nextDelay 下一个怪物的延迟
+-->
+<objects>
+	<object_0 exp="30" gold="10"  mapID="1" chanceID="0:1">
+		<task  taskid="1" taskarg1="80" taskarg2="0">
+			<awarding itemID="3" num="10"/>
+			<awarding itemID="2" num="10"/>
+		</task>
+		<task  taskid="7" taskarg1="100" taskarg2="0"/>
+		<task  taskid="6" taskarg1="8" taskarg2="4" taskarg3="10"/>
+		<task  taskid="6" taskarg1="2" taskarg2="2" taskarg3="6"/>
+	</object_0>
+	<object index="1" monsterID="1" startPosX="200" nextDelay="2" />   
+	<object index="2" monsterID="3" startPosX="350" nextDelay="2" />
+	<object index="3" monsterID="2" startPosX="250" nextDelay="2" />
+	<object index="4" monsterID="1" startPosX="500" nextDelay="0.001" />
+	<object index="5" monsterID="3" startPosX="360" nextDelay="0.001" />
+	<object index="6" monsterID="1" startPosX="200" nextDelay="2" />
+	<object index="7" monsterID="2" startPosX="520" nextDelay="2" />
+	<object index="8" monsterID="0" startPosX="300" nextDelay="2" />
+	<object index="9" monsterID="3" startPosX="520" nextDelay="2" />
+	<object index="10" monsterID="3" startPosX="300" nextDelay="0.01" />
+	<object index="11" monsterID="2" startPosX="600" nextDelay="0.001" />
+</objects>

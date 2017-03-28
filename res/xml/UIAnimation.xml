@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--type 有四种 1 从左到右  2从下到上 3 从右到左 4 从上到下 -->
+<UIAnimations>
+	<UIAnimation sid="1" layerName="WeaponLayer" >
+		<Node name="WeaponLayerCsb.Panel_weapon_choose" type="3" diff="400" duration="0.3" delay="0.1" />
+	
+		<Node name="root" type="1" diff="300" duration="0.2" delay="0.2" />
+	</UIAnimation>
+	<UIAnimation sid="2" layerName="ShareLayer" >
+		<Node name="shareBar.share_bg.Button_share_fb" type="3" diff="500" duration="0.2" delay="0.1" />
+		<Node name="shareBar.share_bg.Button_share_wx" type="3" diff="500" duration="0.2" delay="0.13" />
+		<Node name="shareBar.share_bg.Button_share_wb" type="3" diff="500" duration="0.2" delay="0.16" />
+		
+	</UIAnimation>
+	
+	<UIAnimation sid="3" layerName="UpLvLayer" >
+		<Node name="WeaponUpgradeLayerCsb" type="4" diff="500" duration="0.2" delay="0.05" />
+	</UIAnimation>
+	
+</UIAnimations>

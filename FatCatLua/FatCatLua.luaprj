@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Project Name="FatCatLua.luaprj" Cmd="" Arg="" Dir="" Toggle="false" >
+    <Filter Name="res" Directory=".\..\res" Toggle="true" >
+        <LuaFile RelativePath=".\..\res\LuaExtend.lua" />
+        <LuaFile RelativePath=".\..\res\resConfig.lua" />
+        <Filter Name="WWPlatform" Directory=".\..\res\WWPlatform" Toggle="true" />
+        <Filter Name="animation" Directory=".\..\res\animation" Toggle="true" >
+            <Filter Name="cs2_Animation" Directory=".\..\res\animation\cs2_Animation" Toggle="true" />
+            <Filter Name="csm_Animation" Directory=".\..\res\animation\csm_Animation" Toggle="true" />
+            <Filter Name="cw1zs_Animation" Directory=".\..\res\animation\cw1zs_Animation" Toggle="true" />
+            <Filter Name="cw2zs_Animation" Directory=".\..\res\animation\cw2zs_Animation" Toggle="true" />
+            <Filter Name="cw3zs_Animation" Directory=".\..\res\animation\cw3zs_Animation" Toggle="true" />
+            <Filter Name="cwbj_Animation" Directory=".\..\res\animation\cwbj_Animation" Toggle="true" />
+            <Filter Name="Export" Directory=".\..\res\animation\Export" Toggle="true" />
+            <Filter Name="fengli_effect" Directory=".\..\res\animation\fengli_effect" Toggle="true" />
+            <Filter Name="haiyang_effect" Directory=".\..\res\animation\haiyang_effect" Toggle="true" />
+            <Filter Name="heidong_Animation" Directory=".\..\res\animation\heidong_Animation" Toggle="true" />
+            <Filter Name="huizhang_Animation" Directory=".\..\res\animation\huizhang_Animation" Toggle="true" />
+            <Filter Name="jmtx_gAnimation" Directory=".\..\res\animation\jmtx_gAnimation" Toggle="true" />
+            <Filter Name="juedi_effect" Directory=".\..\res\animation\juedi_effect" Toggle="true" />
+            <Filter Name="lb1_Animation" Directory=".\..\res\animation\lb1_Animation" Toggle="true" />
+            <Filter Name="lb2_Animation" Directory=".\..\res\animation\lb2_Animation" Toggle="true" />
+            <Filter Name="lb3_Animation" Directory=".\..\res\animation\lb3_Animation" Toggle="true" />
+            <Filter Name="lbjm1_Animation" Directory=".\..\res\animation\lbjm1_Animation" Toggle="true" />
+            <Filter Name="lbjm2_Animation" Directory=".\..\res\animation\lbjm2_Animation" Toggle="true" />
+            <Filter Name="lbjm3_Animation" Directory=".\..\res\animation\lbjm3_Animation" Toggle="true" />
+            <Filter Name="maoPF1_Animation" Directory=".\..\res\animation\maoPF1_Animation" Toggle="true" />
+            <Filter Name="maoPF2_Animation" Directory=".\..\res\animation\maoPF2_Animation" Toggle="true" />
+            <Filter Name="maoPF3_Animation" Directory=".\..\res\animation\maoPF3_Animation" Toggle="true" />
+            <Filter Name="mmtb_Animation" Directory=".\..\res\animation\mmtb_Animation" Toggle="true" />
+            <Filter Name="niunai_effect" Directory=".\..\res\animation\niunai_effect" Toggle="true" />
+            <Filter Name="wansheng_effect" Directory=".\..\res\animation\wansheng_effect" Toggle="true" />
+            <Filter Name="weapon_Animation" Directory=".\..\res\animation\weapon_Animation" Toggle="true" />
+            <Filter Name="xx_Animation" Directory=".\..\res\animation\xx_Animation" Toggle="true" />
+            <Filter Name="yubi_Animation" Directory=".\..\res\animation\yubi_Animation" Toggle="true" />
+            <Filter Name="zdy2_Animation" Directory=".\..\res\animation\zdy2_Animation" Toggle="true" />
+            <Filter Name="zy_Animation" Directory=".\..\res\animation\zy_Animation" Toggle="true" />
+        </Filter>
+        <Filter Name="cbcsb" Directory=".\..\res\cbcsb" Toggle="true" >
+            <LuaFile RelativePath=".\..\res\cbcsb\achievementBar.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\achievementLayer.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\CatFragmentAddDialog.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\CatHomeLayer.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\DuplicateChoiceScene.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\GameMainScene.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\GiftBag.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\PetLayer.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\PromptLayer.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\ResourceShow.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\roleUpDialog.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\SecondSureLayer.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\setingLayer.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\shareBar.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\SignItem.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\SignLayer.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\StoreLayer.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\TollgateInfoLayer.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\WaitDialog.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\WeaponLayer.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\WeaponUpgradeLayer.lua" />
+        </Filter>
+        <Filter Name="cbcsb.2" Directory=".\..\res\cbcsb.2" Toggle="true" >
+            <LuaFile RelativePath=".\..\res\cbcsb.2\CatHomeLayer.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb.2\PetLayer.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb.2\shareBar.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb.2\SignItem.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb.2\SignLayer.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb.2\StoreLayer.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb.2\WeaponLayer.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb.2\WeaponListNode.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb.2\WeaponUpgradeLayer.lua" />
+        </Filter>
+        <Filter Name="csb" Directory=".\..\res\csb" Toggle="true" >
+            <LuaFile RelativePath=".\..\res\csb\Fragment_Invite.lua" />
+            <LuaFile RelativePath=".\..\res\csb\Fragment_Invite1.lua" />
+            <LuaFile RelativePath=".\..\res\csb\Fragment_Rank.lua" />
+            <LuaFile RelativePath=".\..\res\csb\GameFight_ExchangeSkill.lua" />
+            <LuaFile RelativePath=".\..\res\csb\GameFightLayer.lua" />
+            <LuaFile RelativePath=".\..\res\csb\GameLoseLayer.lua" />
+            <LuaFile RelativePath=".\..\res\csb\GamePauseLayer_normal.lua" />
+            <LuaFile RelativePath=".\..\res\csb\GameSceneBG_1.lua" />
+            <LuaFile RelativePath=".\..\res\csb\GameSceneBG_2.lua" />
+            <LuaFile RelativePath=".\..\res\csb\GameSceneBG_3.lua" />
+            <LuaFile RelativePath=".\..\res\csb\GameSceneBG_4.lua" />
+            <LuaFile RelativePath=".\..\res\csb\GameSceneBG_5.lua" />
+            <LuaFile RelativePath=".\..\res\csb\GameTaskLayer_gift.lua" />
+            <LuaFile RelativePath=".\..\res\csb\GameTaskLayer_normal.lua" />
+            <LuaFile RelativePath=".\..\res\csb\GameWinLayer.lua" />
+            <LuaFile RelativePath=".\..\res\csb\GameWinLayer_gift.lua" />
+            <LuaFile RelativePath=".\..\res\csb\Node_GiftItem.lua" />
+            <LuaFile RelativePath=".\..\res\csb\Node_hpBar.lua" />
+            <LuaFile RelativePath=".\..\res\csb\Node_Normal_get.lua" />
+            <LuaFile RelativePath=".\..\res\csb\Node_TaskItem_ok.lua" />
+            <LuaFile RelativePath=".\..\res\csb\PaymentTypeLayer.lua" />
+            <LuaFile RelativePath=".\..\res\csb\PhysicalPowerAlertLayer.lua" />
+            <LuaFile RelativePath=".\..\res\csb\rankitem_0.lua" />
+            <LuaFile RelativePath=".\..\res\csb\rankitem_1.lua" />
+            <LuaFile RelativePath=".\..\res\csb\RankLayer.lua" />
+        </Filter>
+        <Filter Name="csb.2" Directory=".\..\res\csb.2" Toggle="true" >
+            <LuaFile RelativePath=".\..\res\csb.2\GameTaskLayer_gift.lua" />
+            <LuaFile RelativePath=".\..\res\csb.2\GameTaskLayer_normal.lua" />
+            <LuaFile RelativePath=".\..\res\csb.2\GameWinLayer.lua" />
+            <LuaFile RelativePath=".\..\res\csb.2\GameWinLayer_gift.lua" />
+            <LuaFile RelativePath=".\..\res\csb.2\Node_GiftItem.lua" />
+            <LuaFile RelativePath=".\..\res\csb.2\Node_Normal_get.lua" />
+            <LuaFile RelativePath=".\..\res\csb.2\Node_TaskItem_ok.lua" />
+            <LuaFile RelativePath=".\..\res\csb.2\rankitem.lua" />
+            <LuaFile RelativePath=".\..\res\csb.2\RankLayer.lua" />
+        </Filter>
+        <Filter Name="dialog" Directory=".\..\res\dialog" Toggle="true" />
+        <Filter Name="en_US" Directory=".\..\res\en_US" Toggle="false" >
+            <Filter Name="game" Directory=".\..\res\en_US\game" Toggle="false" >
+                <Filter Name="animation" Directory=".\..\res\en_US\game\animation" Toggle="true" >
+                    <Filter Name="bosscoming" Directory=".\..\res\en_US\game\animation\bosscoming" Toggle="true" />
+                    <Filter Name="warnring" Directory=".\..\res\en_US\game\animation\warnring" Toggle="true" />
+                </Filter>
+            </Filter>
+            <Filter Name="res" Directory=".\..\res\en_US\res" Toggle="true" >
+                <Filter Name="collapsemenu" Directory=".\..\res\en_US\res\collapsemenu" Toggle="true" />
+                <Filter Name="GameOverLayer" Directory=".\..\res\en_US\res\GameOverLayer" Toggle="true" />
+                <Filter Name="GameTaskLayer" Directory=".\..\res\en_US\res\GameTaskLayer" Toggle="true" />
+                <Filter Name="PhysicalPowerAlertLayer" Directory=".\..\res\en_US\res\PhysicalPowerAlertLayer" Toggle="true" />
+                <Filter Name="RankLayer" Directory=".\..\res\en_US\res\RankLayer" Toggle="true" />
+                <Filter Name="Skillexchange" Directory=".\..\res\en_US\res\Skillexchange" Toggle="true" />
+            </Filter>
+            <Filter Name="xml" Directory=".\..\res\en_US\xml" Toggle="true" />
+        </Filter>
+        <Filter Name="english" Directory=".\..\res\english" Toggle="true" >
+            <Filter Name="cbcsb" Directory=".\..\res\english\cbcsb" Toggle="true" >
+                <LuaFile RelativePath=".\..\res\english\cbcsb\CatFragmentAddDialog.lua" />
+                <LuaFile RelativePath=".\..\res\english\cbcsb\WeaponUpgradeLayer.lua" />
+            </Filter>
+            <Filter Name="dialog" Directory=".\..\res\english\dialog" Toggle="true" />
+            <Filter Name="fnts" Directory=".\..\res\english\fnts" Toggle="true" />
+            <Filter Name="res" Directory=".\..\res\english\res" Toggle="true" >
+                <Filter Name="achievement" Directory=".\..\res\english\res\achievement" Toggle="true" />
+                <Filter Name="CatHome" Directory=".\..\res\english\res\CatHome" Toggle="true" />
+                <Filter Name="GameMainScene" Directory=".\..\res\english\res\GameMainScene" Toggle="true" />
+                <Filter Name="giftBag" Directory=".\..\res\english\res\giftBag" Toggle="true" />
+                <Filter Name="paylayer" Directory=".\..\res\english\res\paylayer" Toggle="true" />
+                <Filter Name="pet" Directory=".\..\res\english\res\pet" Toggle="true" />
+                <Filter Name="PromptLayer" Directory=".\..\res\english\res\PromptLayer" Toggle="true" />
+                <Filter Name="RoleUpDialog" Directory=".\..\res\english\res\RoleUpDialog" Toggle="true" />
+                <Filter Name="setingLayer" Directory=".\..\res\english\res\setingLayer" Toggle="true" />
+                <Filter Name="SignLayer" Directory=".\..\res\english\res\SignLayer" Toggle="true" />
+                <Filter Name="store" Directory=".\..\res\english\res\store" Toggle="true" />
+                <Filter Name="waitDialog" Directory=".\..\res\english\res\waitDialog" Toggle="true" />
+                <Filter Name="WeaponLayer" Directory=".\..\res\english\res\WeaponLayer" Toggle="true" />
+                <Filter Name="WeaponSecondary" Directory=".\..\res\english\res\WeaponSecondary" Toggle="true" />
+            </Filter>
+        </Filter>
+        <Filter Name="fnts" Directory=".\..\res\fnts" Toggle="true" />
+        <Filter Name="fonts" Directory=".\..\res\fonts" Toggle="true" />
+        <Filter Name="game" Directory=".\..\res\game" Toggle="true" >
+            <Filter Name="animation" Directory=".\..\res\game\animation" Toggle="true" >
+                <Filter Name="bomb" Directory=".\..\res\game\animation\bomb" Toggle="true" />
+                <Filter Name="bosscoming" Directory=".\..\res\game\animation\bosscoming" Toggle="true" />
+                <Filter Name="combo" Directory=".\..\res\game\animation\combo" Toggle="true" />
+                <Filter Name="failcat_Animation" Directory=".\..\res\game\animation\failcat_Animation" Toggle="true" />
+                <Filter Name="frozen" Directory=".\..\res\game\animation\frozen" Toggle="true" />
+                <Filter Name="gamefight" Directory=".\..\res\game\animation\gamefight" Toggle="true" />
+                <Filter Name="general" Directory=".\..\res\game\animation\general" Toggle="true" />
+                <Filter Name="MonsterDead" Directory=".\..\res\game\animation\MonsterDead" Toggle="true" />
+                <Filter Name="shield" Directory=".\..\res\game\animation\shield" Toggle="true" />
+                <Filter Name="warnring" Directory=".\..\res\game\animation\warnring" Toggle="true" />
+            </Filter>
+            <Filter Name="animpacker" Directory=".\..\res\game\animpacker" Toggle="true" />
+            <Filter Name="bonus" Directory=".\..\res\game\bonus" Toggle="true" />
+            <Filter Name="bullets" Directory=".\..\res\game\bullets" Toggle="true" />
+            <Filter Name="catSkin" Directory=".\..\res\game\catSkin" Toggle="true" />
+            <Filter Name="general" Directory=".\..\res\game\general" Toggle="true" />
+            <Filter Name="guide" Directory=".\..\res\game\guide" Toggle="true" />
+            <Filter Name="item" Directory=".\..\res\game\item" Toggle="true" />
+            <Filter Name="loading" Directory=".\..\res\game\loading" Toggle="true" />
+            <Filter Name="monster" Directory=".\..\res\game\monster" Toggle="true" />
+            <Filter Name="monstericon" Directory=".\..\res\game\monstericon" Toggle="true" />
+            <Filter Name="particle" Directory=".\..\res\game\particle" Toggle="true" />
+            <Filter Name="pet" Directory=".\..\res\game\pet" Toggle="true" />
+            <Filter Name="progressicon" Directory=".\..\res\game\progressicon" Toggle="true" />
+            <Filter Name="role" Directory=".\..\res\game\role" Toggle="true" />
+            <Filter Name="taskicon" Directory=".\..\res\game\taskicon" Toggle="true" />
+            <Filter Name="weapon" Directory=".\..\res\game\weapon" Toggle="true" />
+        </Filter>
+        <Filter Name="music" Directory=".\..\res\music" Toggle="true" />
+        <Filter Name="res" Directory=".\..\res\res" Toggle="true" >
+            <Filter Name="achievement" Directory=".\..\res\res\achievement" Toggle="true" />
+            <Filter Name="BeginScene" Directory=".\..\res\res\BeginScene" Toggle="true" />
+            <Filter Name="btnText" Directory=".\..\res\res\btnText" Toggle="true" />
+            <Filter Name="CatHome" Directory=".\..\res\res\CatHome" Toggle="true" />
+            <Filter Name="collapsemenu" Directory=".\..\res\res\collapsemenu" Toggle="true" />
+            <Filter Name="DuplicateChoiceScene" Directory=".\..\res\res\DuplicateChoiceScene" Toggle="true" />
+            <Filter Name="GameMainScene" Directory=".\..\res\res\GameMainScene" Toggle="true" />
+            <Filter Name="GameOverLayer" Directory=".\..\res\res\GameOverLayer" Toggle="true" />
+            <Filter Name="GamePauseLayer" Directory=".\..\res\res\GamePauseLayer" Toggle="true" />
+            <Filter Name="gamescenebg" Directory=".\..\res\res\gamescenebg" Toggle="true" >
+                <Filter Name="gamebg_1" Directory=".\..\res\res\gamescenebg\gamebg_1" Toggle="true" />
+                <Filter Name="gamebg_2" Directory=".\..\res\res\gamescenebg\gamebg_2" Toggle="true" />
+                <Filter Name="gamebg_3" Directory=".\..\res\res\gamescenebg\gamebg_3" Toggle="true" />
+                <Filter Name="gamebg_4" Directory=".\..\res\res\gamescenebg\gamebg_4" Toggle="true" />
+                <Filter Name="gamebg_5" Directory=".\..\res\res\gamescenebg\gamebg_5" Toggle="true" />
+            </Filter>
+            <Filter Name="GameTaskLayer" Directory=".\..\res\res\GameTaskLayer" Toggle="true" />
+            <Filter Name="GamingLayer" Directory=".\..\res\res\GamingLayer" Toggle="true" />
+            <Filter Name="General" Directory=".\..\res\res\General" Toggle="true" />
+            <Filter Name="giftBag" Directory=".\..\res\res\giftBag" Toggle="true" />
+            <Filter Name="paylayer" Directory=".\..\res\res\paylayer" Toggle="true" />
+            <Filter Name="PaymentType" Directory=".\..\res\res\PaymentType" Toggle="true" />
+            <Filter Name="pet" Directory=".\..\res\res\pet" Toggle="true" />
+            <Filter Name="PhysicalPowerAlertLayer" Directory=".\..\res\res\PhysicalPowerAlertLayer" Toggle="true" />
+            <Filter Name="PromptLayer" Directory=".\..\res\res\PromptLayer" Toggle="true" />
+            <Filter Name="RankLayer" Directory=".\..\res\res\RankLayer" Toggle="true" />
+            <Filter Name="RoleUpDialog" Directory=".\..\res\res\RoleUpDialog" Toggle="true" />
+            <Filter Name="setingLayer" Directory=".\..\res\res\setingLayer" Toggle="true" />
+            <Filter Name="share" Directory=".\..\res\res\share" Toggle="true" />
+            <Filter Name="SignLayer" Directory=".\..\res\res\SignLayer" Toggle="true" />
+            <Filter Name="Skillexchange" Directory=".\..\res\res\Skillexchange" Toggle="true" />
+            <Filter Name="store" Directory=".\..\res\res\store" Toggle="true" >
+                <Filter Name="india" Directory=".\..\res\res\store\india" Toggle="true" />
+                <Filter Name="indonesia" Directory=".\..\res\res\store\indonesia" Toggle="true" />
+            </Filter>
+            <Filter Name="waitDialog" Directory=".\..\res\res\waitDialog" Toggle="true" />
+            <Filter Name="WeaponLayer" Directory=".\..\res\res\WeaponLayer" Toggle="true" />
+            <Filter Name="WeaponSecondary" Directory=".\..\res\res\WeaponSecondary" Toggle="true" />
+        </Filter>
+        <Filter Name="res.2" Directory=".\..\res\res.2" Toggle="true" >
+            <Filter Name="CatHome" Directory=".\..\res\res.2\CatHome" Toggle="true" />
+            <Filter Name="collapsemenu" Directory=".\..\res\res.2\collapsemenu" Toggle="true" />
+            <Filter Name="GameTaskLayer" Directory=".\..\res\res.2\GameTaskLayer" Toggle="true" />
+            <Filter Name="gameWinLayer" Directory=".\..\res\res.2\gameWinLayer" Toggle="true" />
+            <Filter Name="General" Directory=".\..\res\res.2\General" Toggle="true" />
+            <Filter Name="pet" Directory=".\..\res\res.2\pet" Toggle="true" />
+            <Filter Name="RankLayer" Directory=".\..\res\res.2\RankLayer" Toggle="true" />
+            <Filter Name="share" Directory=".\..\res\res.2\share" Toggle="true" />
+            <Filter Name="SignLayer" Directory=".\..\res\res.2\SignLayer" Toggle="true" />
+            <Filter Name="store" Directory=".\..\res\res.2\store" Toggle="true" />
+            <Filter Name="WeaponLayer" Directory=".\..\res\res.2\WeaponLayer" Toggle="true" />
+            <Filter Name="WeaponSecondary" Directory=".\..\res\res.2\WeaponSecondary" Toggle="true" />
+        </Filter>
+        <Filter Name="shader" Directory=".\..\res\shader" Toggle="true" />
+        <Filter Name="starmap" Directory=".\..\res\starmap" Toggle="true" >
+            <LuaFile RelativePath=".\..\res\starmap\fengli_map1.lua" />
+            <LuaFile RelativePath=".\..\res\starmap\fengli_map2.lua" />
+            <LuaFile RelativePath=".\..\res\starmap\haiyang_map1.lua" />
+            <LuaFile RelativePath=".\..\res\starmap\haiyang_map2.lua" />
+            <LuaFile RelativePath=".\..\res\starmap\juedi_map1.lua" />
+            <LuaFile RelativePath=".\..\res\starmap\juedi_map2.lua" />
+            <LuaFile RelativePath=".\..\res\starmap\niunai_map1.lua" />
+            <LuaFile RelativePath=".\..\res\starmap\niunai_map2.lua" />
+            <LuaFile RelativePath=".\..\res\starmap\wansheng_map1.lua" />
+            <LuaFile RelativePath=".\..\res\starmap\wansheng_map2.lua" />
+            <LuaFile RelativePath=".\..\res\starmap\zhangyu_map1.lua" />
+            <LuaFile RelativePath=".\..\res\starmap\zhangyu_map2.lua" />
+        </Filter>
+        <Filter Name="story" Directory=".\..\res\story" Toggle="true" />
+        <Filter Name="xml" Directory=".\..\res\xml" Toggle="false" >
+            <Filter Name="achievement" Directory=".\..\res\xml\achievement" Toggle="true" />
+            <Filter Name="appvn" Directory=".\..\res\xml\appvn" Toggle="true" />
+            <Filter Name="tollgateData" Directory=".\..\res\xml\tollgateData" Toggle="true" />
+            <LuaFile RelativePath=".\..\res\xml\Giftbag.lua" />
+        </Filter>
+    </Filter>
+    <Filter Name="src" Directory=".\..\src" Toggle="false" >
+        <LuaFile RelativePath=".\..\src\config.lua" />
+        <LuaFile RelativePath=".\..\src\main.lua" />
+        <Filter Name="app" Directory=".\..\src\app" Toggle="true" >
+            <LuaFile RelativePath=".\..\src\app\MyApp.lua" />
+            <Filter Name="views" Directory=".\..\src\app\views" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\app\views\init.lua" />
+                <Filter Name="common" Directory=".\..\src\app\views\common" Toggle="true" >
+                    <LuaFile RelativePath=".\..\src\app\views\common\LoadingManager.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\common\Toast.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\common\UpdateAssetLayer.lua" />
+                </Filter>
+                <Filter Name="customwidget" Directory=".\..\src\app\views\customwidget" Toggle="true" >
+                    <LuaFile RelativePath=".\..\src\app\views\customwidget\BankruptLayer.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\customwidget\CMImageFont.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\customwidget\CommonDialog.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\customwidget\DropDownList.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\customwidget\ExitGameLayer.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\customwidget\HelpList.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\customwidget\ItemShowView.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\customwidget\StyleBtn.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\customwidget\StyleCheckBox.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\customwidget\StyleLabel.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\customwidget\StyleUIMgr.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\customwidget\SystemInfoDialog.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\customwidget\UIAnimateSp.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\customwidget\UICircleNode.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\customwidget\WWHeadSprite.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\customwidget\WWItemSprite.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\customwidget\WWNetSprite.lua" />
+                </Filter>
+                <Filter Name="uibase" Directory=".\..\src\app\views\uibase" Toggle="true" >
+                    <LuaFile RelativePath=".\..\src\app\views\uibase\PopWindowBase.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\uibase\SimpleRichText.lua" />
+                    <LuaFile RelativePath=".\..\src\app\views\uibase\WWSceneBase.lua" />
+                </Filter>
+            </Filter>
+            <LuaFile RelativePath=".\..\src\app\appRegistry.lua" />
+            <LuaFile RelativePath=".\..\src\app\init.lua" />
+            <LuaFile RelativePath=".\..\src\app\string_zh.lua" />
+            <LuaFile RelativePath=".\..\src\app\wwMacros.lua" />
+            <Filter Name="config" Directory=".\..\src\app\config" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\app\config\wwConfigData.lua" />
+                <LuaFile RelativePath=".\..\src\app\config\wwConst.lua" />
+                <LuaFile RelativePath=".\..\src\app\config\wwCsvCfg.lua" />
+                <LuaFile RelativePath=".\..\src\app\config\wwGameConst.lua" />
+                <LuaFile RelativePath=".\..\src\app\config\wwLuaConfig.lua" />
+                <LuaFile RelativePath=".\..\src\app\config\wwModuleConfig.lua" />
+            </Filter>
+            <Filter Name="data" Directory=".\..\src\app\data" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\app\data\DataCenter.lua" />
+                <LuaFile RelativePath=".\..\src\app\data\init.lua" />
+                <LuaFile RelativePath=".\..\src\app\data\UserDataCenter.lua" />
+            </Filter>
+            <Filter Name="dataorm" Directory=".\..\src\app\dataorm" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\app\dataorm\orm_demo.lua" />
+                <LuaFile RelativePath=".\..\src\app\dataorm\Sqlite3Base.lua" />
+                <LuaFile RelativePath=".\..\src\app\dataorm\sqlite3test.lua" />
+                <LuaFile RelativePath=".\..\src\app\dataorm\WWSQLiteManager.lua" />
+            </Filter>
+            <Filter Name="event" Directory=".\..\src\app\event" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\app\event\CommonEvent.lua" />
+                <LuaFile RelativePath=".\..\src\app\event\HelpAPIEvent.lua" />
+                <LuaFile RelativePath=".\..\src\app\event\KeyBoardEvent.lua" />
+                <LuaFile RelativePath=".\..\src\app\event\SoundEvent.lua" />
+                <LuaFile RelativePath=".\..\src\app\event\TemplateEvent.lua" />
+            </Filter>
+            <Filter Name="fsm" Directory=".\..\src\app\fsm" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\app\fsm\FSMConfig.lua" />
+            </Filter>
+            <Filter Name="managers" Directory=".\..\src\app\managers" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\app\managers\ControllerManager.lua" />
+                <LuaFile RelativePath=".\..\src\app\managers\ControllerRegistry.lua" />
+                <LuaFile RelativePath=".\..\src\app\managers\MediatorManager.lua" />
+                <LuaFile RelativePath=".\..\src\app\managers\MediatorRegistry.lua" />
+                <LuaFile RelativePath=".\..\src\app\managers\ProxyManager.lua" />
+                <LuaFile RelativePath=".\..\src\app\managers\ProxyRegistry.lua" />
+                <LuaFile RelativePath=".\..\src\app\managers\WWFacade.lua" />
+            </Filter>
+            <Filter Name="netMsgBean" Directory=".\..\src\app\netMsgBean" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\app\netMsgBean\loginModel.lua" />
+                <LuaFile RelativePath=".\..\src\app\netMsgBean\luaHotModel.lua" />
+                <LuaFile RelativePath=".\..\src\app\netMsgBean\registerModel.lua" />
+                <LuaFile RelativePath=".\..\src\app\netMsgBean\shopChargeModel.lua" />
+                <LuaFile RelativePath=".\..\src\app\netMsgBean\userIssueNotifyModel.lua" />
+            </Filter>
+            <Filter Name="netMsgCfg" Directory=".\..\src\app\netMsgCfg" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\app\netMsgCfg\NetEventId.lua" />
+                <LuaFile RelativePath=".\..\src\app\netMsgCfg\NetWorkCfg.lua" />
+            </Filter>
+            <Filter Name="proxy" Directory=".\..\src\app\proxy" Toggle="true" >
+                <Filter Name="global" Directory=".\..\src\app\proxy\global" Toggle="false" />
+            </Filter>
+            <Filter Name="utilities" Directory=".\..\src\app\utilities" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\app\utilities\GoldDropDownAnim.lua" />
+                <LuaFile RelativePath=".\..\src\app\utilities\init.lua" />
+                <LuaFile RelativePath=".\..\src\app\utilities\JsonDecorator.lua" />
+                <LuaFile RelativePath=".\..\src\app\utilities\LuaChargeNativeBridge.lua" />
+                <LuaFile RelativePath=".\..\src\app\utilities\LuaLoginNativeBridge.lua" />
+                <LuaFile RelativePath=".\..\src\app\utilities\LuaNativeBridge.lua" />
+                <LuaFile RelativePath=".\..\src\app\utilities\LuaWxShareNativeBridge.lua" />
+                <LuaFile RelativePath=".\..\src\app\utilities\PublicApi.lua" />
+                <LuaFile RelativePath=".\..\src\app\utilities\templateUI.lua" />
+                <LuaFile RelativePath=".\..\src\app\utilities\ToolAnim.lua" />
+                <LuaFile RelativePath=".\..\src\app\utilities\ToolCom.lua" />
+                <LuaFile RelativePath=".\..\src\app\utilities\ToolJni.lua" />
+                <LuaFile RelativePath=".\..\src\app\utilities\ToolMd5.lua" />
+                <LuaFile RelativePath=".\..\src\app\utilities\ToolPhone.lua" />
+                <LuaFile RelativePath=".\..\src\app\utilities\UIFactory.lua" />
+                <LuaFile RelativePath=".\..\src\app\utilities\UmengManager.lua" />
+                <LuaFile RelativePath=".\..\src\app\utilities\WWHttpRequest.lua" />
+                <LuaFile RelativePath=".\..\src\app\utilities\WWNodeEx.lua" />
+                <LuaFile RelativePath=".\..\src\app\utilities\WWQueue.lua" />
+                <LuaFile RelativePath=".\..\src\app\utilities\wwutils.lua" />
+            </Filter>
+        </Filter>
+        <Filter Name="cocos" Directory=".\..\src\cocos" Toggle="true" >
+            <LuaFile RelativePath=".\..\src\cocos\init.lua" />
+            <Filter Name="3d" Directory=".\..\src\cocos\3d" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\cocos\3d\3dConstants.lua" />
+            </Filter>
+            <Filter Name="cocos2d" Directory=".\..\src\cocos\cocos2d" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\cocos\cocos2d\bitExtend.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocos2d\Cocos2d.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocos2d\Cocos2dConstants.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocos2d\deprecated.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocos2d\DeprecatedCocos2dClass.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocos2d\DeprecatedCocos2dEnum.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocos2d\DeprecatedCocos2dFunc.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocos2d\DeprecatedOpenglEnum.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocos2d\DrawPrimitives.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocos2d\functions.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocos2d\json.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocos2d\luaj.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocos2d\luaoc.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocos2d\Opengl.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocos2d\OpenglConstants.lua" />
+            </Filter>
+            <Filter Name="cocosbuilder" Directory=".\..\src\cocos\cocosbuilder" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\cocos\cocosbuilder\CCBReaderLoad.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocosbuilder\DeprecatedCocosBuilderClass.lua" />
+            </Filter>
+            <Filter Name="cocosdenshion" Directory=".\..\src\cocos\cocosdenshion" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\cocos\cocosdenshion\AudioEngine.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocosdenshion\DeprecatedCocosDenshionClass.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocosdenshion\DeprecatedCocosDenshionFunc.lua" />
+            </Filter>
+            <Filter Name="cocostudio" Directory=".\..\src\cocos\cocostudio" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\cocos\cocostudio\CocoStudio.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocostudio\DeprecatedCocoStudioClass.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocostudio\DeprecatedCocoStudioFunc.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\cocostudio\StudioConstants.lua" />
+            </Filter>
+            <Filter Name="controller" Directory=".\..\src\cocos\controller" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\cocos\controller\ControllerConstants.lua" />
+            </Filter>
+            <Filter Name="extension" Directory=".\..\src\cocos\extension" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\cocos\extension\DeprecatedExtensionClass.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\extension\DeprecatedExtensionEnum.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\extension\DeprecatedExtensionFunc.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\extension\ExtensionConstants.lua" />
+            </Filter>
+            <Filter Name="framework" Directory=".\..\src\cocos\framework" Toggle="false" >
+                <LuaFile RelativePath=".\..\src\cocos\framework\audio.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\framework\device.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\framework\display.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\framework\init.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\framework\package_support.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\framework\transition.lua" />
+                <Filter Name="components" Directory=".\..\src\cocos\framework\components" Toggle="true" >
+                    <LuaFile RelativePath=".\..\src\cocos\framework\components\event.lua" />
+                </Filter>
+                <Filter Name="extends" Directory=".\..\src\cocos\framework\extends" Toggle="true" >
+                    <LuaFile RelativePath=".\..\src\cocos\framework\extends\LayerEx.lua" />
+                    <LuaFile RelativePath=".\..\src\cocos\framework\extends\MenuEx.lua" />
+                    <LuaFile RelativePath=".\..\src\cocos\framework\extends\NodeEx.lua" />
+                    <LuaFile RelativePath=".\..\src\cocos\framework\extends\SpriteEx.lua" />
+                    <LuaFile RelativePath=".\..\src\cocos\framework\extends\UICheckBox.lua" />
+                    <LuaFile RelativePath=".\..\src\cocos\framework\extends\UIEditBox.lua" />
+                    <LuaFile RelativePath=".\..\src\cocos\framework\extends\UIListView.lua" />
+                    <LuaFile RelativePath=".\..\src\cocos\framework\extends\UIPageView.lua" />
+                    <LuaFile RelativePath=".\..\src\cocos\framework\extends\UIScrollView.lua" />
+                    <LuaFile RelativePath=".\..\src\cocos\framework\extends\UISlider.lua" />
+                    <LuaFile RelativePath=".\..\src\cocos\framework\extends\UITextField.lua" />
+                    <LuaFile RelativePath=".\..\src\cocos\framework\extends\UIWidget.lua" />
+                </Filter>
+            </Filter>
+            <Filter Name="network" Directory=".\..\src\cocos\network" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\cocos\network\DeprecatedNetworkClass.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\network\DeprecatedNetworkEnum.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\network\DeprecatedNetworkFunc.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\network\NetworkConstants.lua" />
+            </Filter>
+            <Filter Name="physics3d" Directory=".\..\src\cocos\physics3d" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\cocos\physics3d\physics3d-constants.lua" />
+            </Filter>
+            <Filter Name="spine" Directory=".\..\src\cocos\spine" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\cocos\spine\SpineConstants.lua" />
+            </Filter>
+            <Filter Name="ui" Directory=".\..\src\cocos\ui" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\cocos\ui\DeprecatedUIEnum.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\ui\DeprecatedUIFunc.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\ui\experimentalUIConstants.lua" />
+                <LuaFile RelativePath=".\..\src\cocos\ui\GuiConstants.lua" />
+            </Filter>
+        </Filter>
+        <Filter Name="packages" Directory=".\..\src\packages" Toggle="true" >
+            <Filter Name="mvc" Directory=".\..\src\packages\mvc" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\packages\mvc\Controller.lua" />
+                <LuaFile RelativePath=".\..\src\packages\mvc\Mediator.lua" />
+                <LuaFile RelativePath=".\..\src\packages\mvc\Proxy.lua" />
+            </Filter>
+            <LuaFile RelativePath=".\..\src\packages\init.lua" />
+            <Filter Name="framebase" Directory=".\..\src\packages\framebase" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\packages\framebase\FixUIUtils.lua" />
+                <LuaFile RelativePath=".\..\src\packages\framebase\frameBaseInitialization.lua" />
+                <LuaFile RelativePath=".\..\src\packages\framebase\Helper.lua" />
+                <LuaFile RelativePath=".\..\src\packages\framebase\i18nUtils.lua" />
+                <LuaFile RelativePath=".\..\src\packages\framebase\LogUtils.lua" />
+                <LuaFile RelativePath=".\..\src\packages\framebase\NetWorkBridge.lua" />
+                <LuaFile RelativePath=".\..\src\packages\framebase\WWAnimatePackerLua.lua" />
+                <LuaFile RelativePath=".\..\src\packages\framebase\WWAsynResLoader.lua" />
+                <LuaFile RelativePath=".\..\src\packages\framebase\WWNetAdapter.lua" />
+            </Filter>
+            <Filter Name="statebase" Directory=".\..\src\packages\statebase" Toggle="false" >
+                <LuaFile RelativePath=".\..\src\packages\statebase\FiniteStateMachine.lua" />
+                <LuaFile RelativePath=".\..\src\packages\statebase\FSConst.lua" />
+                <LuaFile RelativePath=".\..\src\packages\statebase\FSEvent.lua" />
+                <LuaFile RelativePath=".\..\src\packages\statebase\FSFilter.lua" />
+                <LuaFile RelativePath=".\..\src\packages\statebase\FSFilterChain.lua" />
+                <LuaFile RelativePath=".\..\src\packages\statebase\FSRegistry.lua" />
+                <LuaFile RelativePath=".\..\src\packages\statebase\FSRegistryManager.lua" />
+                <LuaFile RelativePath=".\..\src\packages\statebase\FSState.lua" />
+                <LuaFile RelativePath=".\..\src\packages\statebase\Interceptor.lua" />
+                <LuaFile RelativePath=".\..\src\packages\statebase\InterceptorChain.lua" />
+                <LuaFile RelativePath=".\..\src\packages\statebase\Stack.lua" />
+                <LuaFile RelativePath=".\..\src\packages\statebase\UIState.lua" />
+                <LuaFile RelativePath=".\..\src\packages\statebase\WWList.lua" />
+                <Filter Name="filter" Directory=".\..\src\packages\statebase\filter" Toggle="true" >
+                    <LuaFile RelativePath=".\..\src\packages\statebase\filter\CorFilter.lua" />
+                    <LuaFile RelativePath=".\..\src\packages\statebase\filter\JumpFilter.lua" />
+                </Filter>
+            </Filter>
+        </Filter>
+        <Filter Name="hall" Directory=".\..\src\hall" Toggle="true" >
+            <LuaFile RelativePath=".\..\src\hall\init.lua" />
+            <Filter Name="animator" Directory=".\..\src\hall\animator" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\hall\animator\CharacterAnimator.lua" />
+                <LuaFile RelativePath=".\..\src\hall\animator\ChatAnimatorBase.lua" />
+                <LuaFile RelativePath=".\..\src\hall\animator\FacialAnimator.lua" />
+            </Filter>
+            <Filter Name="controller" Directory=".\..\src\hall\controller" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\hall\controller\ControllerRegistry.lua" />
+                <LuaFile RelativePath=".\..\src\hall\controller\HallSceneController.lua" />
+            </Filter>
+            <Filter Name="data" Directory=".\..\src\hall\data" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\hall\data\UIStateJumper.lua" />
+            </Filter>
+            <Filter Name="event" Directory=".\..\src\hall\event" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\hall\event\HallEvent.lua" />
+            </Filter>
+            <Filter Name="fsm" Directory=".\..\src\hall\fsm" Toggle="false" >
+                <LuaFile RelativePath=".\..\src\hall\fsm\init.lua" />
+                <Filter Name="cfg" Directory=".\..\src\hall\fsm\cfg" Toggle="false" >
+                    <LuaFile RelativePath=".\..\src\hall\fsm\cfg\UIRootCfg.lua" />
+                    <LuaFile RelativePath=".\..\src\hall\fsm\cfg\UISettingCfg.lua" />
+                    <LuaFile RelativePath=".\..\src\hall\fsm\cfg\UIStoreCfg.lua" />
+                    <LuaFile RelativePath=".\..\src\hall\fsm\cfg\UITaskCfg.lua" />
+                    <LuaFile RelativePath=".\..\src\hall\fsm\cfg\UIUserInfoCfg.lua" />
+                </Filter>
+                <Filter Name="stateFilter" Directory=".\..\src\hall\fsm\stateFilter" Toggle="false" />
+                <Filter Name="stateInterceptor" Directory=".\..\src\hall\fsm\stateInterceptor" Toggle="true" >
+                    <LuaFile RelativePath=".\..\src\hall\fsm\stateInterceptor\LoginInterceptor.lua" />
+                    <LuaFile RelativePath=".\..\src\hall\fsm\stateInterceptor\SettingModuleHandler.lua" />
+                </Filter>
+                <Filter Name="stateModelControl" Directory=".\..\src\hall\fsm\stateModelControl" Toggle="true" >
+                    <LuaFile RelativePath=".\..\src\hall\fsm\stateModelControl\UIHallSceneState.lua" />
+                    <LuaFile RelativePath=".\..\src\hall\fsm\stateModelControl\UIRankState.lua" />
+                    <LuaFile RelativePath=".\..\src\hall\fsm\stateModelControl\UISettingState.lua" />
+                    <LuaFile RelativePath=".\..\src\hall\fsm\stateModelControl\UISignState.lua" />
+                    <LuaFile RelativePath=".\..\src\hall\fsm\stateModelControl\UIStoreState.lua" />
+                    <LuaFile RelativePath=".\..\src\hall\fsm\stateModelControl\UITaskState.lua" />
+                    <LuaFile RelativePath=".\..\src\hall\fsm\stateModelControl\UIUserInfoState.lua" />
+                </Filter>
+            </Filter>
+            <Filter Name="mediator" Directory=".\..\src\hall\mediator" Toggle="false" >
+                <LuaFile RelativePath=".\..\src\hall\mediator\HallScene.lua" />
+                <LuaFile RelativePath=".\..\src\hall\mediator\HallSceneMediator.lua" />
+                <LuaFile RelativePath=".\..\src\hall\mediator\MediatorRegistry.lua" />
+                <Filter Name="cfg" Directory=".\..\src\hall\mediator\cfg" Toggle="false" >
+                    <LuaFile RelativePath=".\..\src\hall\mediator\cfg\ActivityCfg.lua" />
+                    <LuaFile RelativePath=".\..\src\hall\mediator\cfg\SettingCfg.lua" />
+                    <LuaFile RelativePath=".\..\src\hall\mediator\cfg\HallUICfg.lua" />
+                </Filter>
+                <Filter Name="view" Directory=".\..\src\hall\mediator\view" Toggle="false" >
+                    <LuaFile RelativePath=".\..\src\hall\mediator\view\SettingLayer.lua" />
+                    <LuaFile RelativePath=".\..\src\hall\mediator\view\HallUILayer.lua" />
+                    <Filter Name="widget" Directory=".\..\src\hall\mediator\view\widget" Toggle="false" >
+                        <LuaFile RelativePath=".\..\src\hall\mediator\view\widget\GiftBagButton.lua" />
+                    </Filter>
+                </Filter>
+            </Filter>
+            <Filter Name="proxy" Directory=".\..\src\hall\proxy" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\hall\proxy\ProxyRegistry.lua" />
+            </Filter>
+            <Filter Name="request" Directory=".\..\src\hall\request" Toggle="true" />
+            <Filter Name="util" Directory=".\..\src\hall\util" Toggle="true" />
+        </Filter>
+        <Filter Name="login" Directory=".\..\src\login" Toggle="true" >
+            <LuaFile RelativePath=".\..\src\login\init.lua" />
+            <Filter Name="controller" Directory=".\..\src\login\controller" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\login\controller\ControllerRegistry.lua" />
+                <LuaFile RelativePath=".\..\src\login\controller\LoginSceneController.lua" />
+            </Filter>
+            <Filter Name="event" Directory=".\..\src\login\event" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\login\event\LoginEvent.lua" />
+            </Filter>
+            <Filter Name="fsm" Directory=".\..\src\login\fsm" Toggle="false" >
+                <LuaFile RelativePath=".\..\src\login\fsm\init.lua" />
+                <Filter Name="cfg" Directory=".\..\src\login\fsm\cfg" Toggle="false" >
+                    <LuaFile RelativePath=".\..\src\login\fsm\cfg\UILoginRootCfg.lua" />
+                </Filter>
+                <Filter Name="controller" Directory=".\..\src\login\fsm\controller" Toggle="false" >
+                    <LuaFile RelativePath=".\..\src\login\fsm\controller\UILoginRootState.lua" />
+                </Filter>
+            </Filter>
+            <Filter Name="mediator" Directory=".\..\src\login\mediator" Toggle="false" >
+                <LuaFile RelativePath=".\..\src\login\mediator\LoginSceneMediator.lua" />
+                <LuaFile RelativePath=".\..\src\login\mediator\MediatorRegistry.lua" />
+                <Filter Name="view" Directory=".\..\src\login\mediator\view" Toggle="false" >
+                    <LuaFile RelativePath=".\..\src\login\mediator\view\LoginLayer.lua" />
+                </Filter>
+                <LuaFile RelativePath=".\..\src\login\mediator\LoginScene.lua" />
+            </Filter>
+            <Filter Name="model" Directory=".\..\src\login\model" Toggle="true" />
+            <Filter Name="proxy" Directory=".\..\src\login\proxy" Toggle="true" >
+                <LuaFile RelativePath=".\..\src\login\proxy\ProxyRegistry.lua" />
+            </Filter>
+            <Filter Name="request" Directory=".\..\src\login\request" Toggle="true" />
+        </Filter>
+    </Filter>
+</Project>

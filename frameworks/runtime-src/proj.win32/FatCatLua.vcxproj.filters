@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{fc5cb953-2953-4968-83b3-39e3ff951754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{037a9a02-b906-4cc5-ad98-304acd4e25ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{2d1d0979-58cd-4ab6-b91c-13650158f1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\WWPlatform">
+      <UniqueIdentifier>{2662ec36-9a28-49c0-8588-661e2e1c3854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\WWPlatform\DBSystem">
+      <UniqueIdentifier>{abb91a63-59b5-4a47-b5d5-e1587cb886ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\WWPlatform\DBSystem\Sqlite3">
+      <UniqueIdentifier>{b3899c4d-3cb1-48fc-8da0-cbf046b4aa7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\WWPlatform\EngineSystem">
+      <UniqueIdentifier>{68b7b143-b462-4acb-92d4-105dedad9788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\WWPlatform\EventSystem">
+      <UniqueIdentifier>{2396cd9c-685f-4319-968d-8a06dd40d39b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\WWPlatform\GUISystem">
+      <UniqueIdentifier>{4a3364d7-a38d-45fb-8386-8a1db3ac99e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\WWPlatform\LogSystem">
+      <UniqueIdentifier>{f4843e2f-8f51-4a70-8a37-a10252ab5572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\WWPlatform\lua-bindings">
+      <UniqueIdentifier>{cef1db24-9df1-46eb-aa0c-b09aee1bc03e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\WWPlatform\lua-bindings\auto">
+      <UniqueIdentifier>{0c203a8c-a1b7-42b2-821c-ae3453074fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\WWPlatform\lua-bindings\manual">
+      <UniqueIdentifier>{101a507e-cf93-4792-a887-ee6d330565d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\WWPlatform\NetSystem">
+      <UniqueIdentifier>{a3271281-1043-474a-9c62-3955ad1c9734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\WWPlatform\SoundSystem">
+      <UniqueIdentifier>{60dab79b-9c3d-4818-ae83-fb35cfe6ecc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\WWPlatform\Tools">
+      <UniqueIdentifier>{55e417fb-c731-41c9-930c-efa99a8fe637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\WWPlatform\UpdateSystem">
+      <UniqueIdentifier>{16220e22-9b17-44d6-abbb-c1aa826ab939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\WWPlatform\VariateSystem">
+      <UniqueIdentifier>{6699a1ba-8ea2-4d80-988e-83cc5460dab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\WWPlatform\VariateSystem\parser">
+      <UniqueIdentifier>{2a8082de-5edf-4d71-9e57-3f8830db3469}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SimulatorWin.h" />
+    <ClInclude Include="stdafx.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ide-support\CodeIDESupport.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ide-support\lua_debugger.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ide-support\RuntimeLuaImpl.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\DBSystem\tables.h">
+      <Filter>Classes\WWPlatform\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\DBSystem\WWGameData.h">
+      <Filter>Classes\WWPlatform\DBSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\DBSystem\Sqlite3\lsqlite3.h">
+      <Filter>Classes\WWPlatform\DBSystem\Sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\DBSystem\Sqlite3\sqlite3.h">
+      <Filter>Classes\WWPlatform\DBSystem\Sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\DBSystem\Sqlite3\sqlite3ext.h">
+      <Filter>Classes\WWPlatform\DBSystem\Sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\EngineSystem\IPhoneTool.h">
+      <Filter>Classes\WWPlatform\EngineSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\EngineSystem\PhoneTool_android.h">
+      <Filter>Classes\WWPlatform\EngineSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\EngineSystem\PhoneTool_ios.h">
+      <Filter>Classes\WWPlatform\EngineSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\EngineSystem\PhoneTool_win32.h">
+      <Filter>Classes\WWPlatform\EngineSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\EventSystem\MsgLuaFilter.h">
+      <Filter>Classes\WWPlatform\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\EventSystem\WWMsgManager.h">
+      <Filter>Classes\WWPlatform\EventSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\GUISystem\SuperRichText.h">
+      <Filter>Classes\WWPlatform\GUISystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\LogSystem\WWLog.h">
+      <Filter>Classes\WWPlatform\LogSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\LogSystem\WWLogMaros.h">
+      <Filter>Classes\WWPlatform\LogSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\lua-bindings\WWLuaConversions.h">
+      <Filter>Classes\WWPlatform\lua-bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\lua-bindings\WWLuaRegistery.h">
+      <Filter>Classes\WWPlatform\lua-bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\lua-bindings\auto\lua_wwconfigsystem_auto.hpp">
+      <Filter>Classes\WWPlatform\lua-bindings\auto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\lua-bindings\auto\lua_wwdbsystem_auto.hpp">
+      <Filter>Classes\WWPlatform\lua-bindings\auto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\lua-bindings\auto\lua_wwenginesystem_auto.hpp">
+      <Filter>Classes\WWPlatform\lua-bindings\auto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\lua-bindings\auto\lua_wweventsystem_auto.hpp">
+      <Filter>Classes\WWPlatform\lua-bindings\auto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\lua-bindings\auto\lua_wwguisystem_auto.hpp">
+      <Filter>Classes\WWPlatform\lua-bindings\auto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\lua-bindings\auto\lua_wwnetsystem_auto.hpp">
+      <Filter>Classes\WWPlatform\lua-bindings\auto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\lua-bindings\auto\lua_wwsoundsystem_auto.hpp">
+      <Filter>Classes\WWPlatform\lua-bindings\auto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\lua-bindings\auto\lua_wwtools_auto.hpp">
+      <Filter>Classes\WWPlatform\lua-bindings\auto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\lua-bindings\manual\lua_wwconfigsystem__manual.hpp">
+      <Filter>Classes\WWPlatform\lua-bindings\manual</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\lua-bindings\manual\lua_wwupdatesystem_manual.hpp">
+      <Filter>Classes\WWPlatform\lua-bindings\manual</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\NetSystem\SocketParallelCheck.h">
+      <Filter>Classes\WWPlatform\NetSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\NetSystem\WWBuffer.h">
+      <Filter>Classes\WWPlatform\NetSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\NetSystem\WWBufferPool.h">
+      <Filter>Classes\WWPlatform\NetSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\NetSystem\WWInetAddress.h">
+      <Filter>Classes\WWPlatform\NetSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\NetSystem\WWIPPool.h">
+      <Filter>Classes\WWPlatform\NetSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\NetSystem\WWNetMacros.h">
+      <Filter>Classes\WWPlatform\NetSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\NetSystem\WWNetwork.h">
+      <Filter>Classes\WWPlatform\NetSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\NetSystem\WWNetworkStateHandler.h">
+      <Filter>Classes\WWPlatform\NetSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\NetSystem\WWSocket.h">
+      <Filter>Classes\WWPlatform\NetSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\SoundSystem\WWSoundManager.h">
+      <Filter>Classes\WWPlatform\SoundSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\Tools\ImageDownLoader.h">
+      <Filter>Classes\WWPlatform\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\Tools\ImageDownLoaderPool.h">
+      <Filter>Classes\WWPlatform\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\Tools\MD5.h">
+      <Filter>Classes\WWPlatform\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\Tools\UrlEncodeDecode.h">
+      <Filter>Classes\WWPlatform\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\Tools\WWAnimatePacker.h">
+      <Filter>Classes\WWPlatform\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\Tools\WWCustomEventConstant.h">
+      <Filter>Classes\WWPlatform\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\Tools\WWGlobalDataConstant.h">
+      <Filter>Classes\WWPlatform\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\Tools\WWMapForValueFinder.h">
+      <Filter>Classes\WWPlatform\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\Tools\WWObjPool.h">
+      <Filter>Classes\WWPlatform\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\Tools\WWSingleton.h">
+      <Filter>Classes\WWPlatform\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\Tools\WWTools.h">
+      <Filter>Classes\WWPlatform\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\Tools\WWUtil.h">
+      <Filter>Classes\WWPlatform\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\UpdateSystem\UpgradeConst.h">
+      <Filter>Classes\WWPlatform\UpdateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\UpdateSystem\UpGradeDelegate.h">
+      <Filter>Classes\WWPlatform\UpdateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\UpdateSystem\UpgradeEvent.h">
+      <Filter>Classes\WWPlatform\UpdateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\UpdateSystem\WWDownloader.h">
+      <Filter>Classes\WWPlatform\UpdateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\UpdateSystem\WWUpgradeAssetsMgr.h">
+      <Filter>Classes\WWPlatform\UpdateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\VariateSystem\LoadCsv.h">
+      <Filter>Classes\WWPlatform\VariateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\VariateSystem\WWConfigData.h">
+      <Filter>Classes\WWPlatform\VariateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\VariateSystem\WWConfigManager.h">
+      <Filter>Classes\WWPlatform\VariateSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\VariateSystem\parser\WWGeneralParser.h">
+      <Filter>Classes\WWPlatform\VariateSystem\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\VariateSystem\parser\WWIConfigParser.h">
+      <Filter>Classes\WWPlatform\VariateSystem\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\VariateSystem\parser\WWNetParser.h">
+      <Filter>Classes\WWPlatform\VariateSystem\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\VariateSystem\parser\WWSoundParser.h">
+      <Filter>Classes\WWPlatform\VariateSystem\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WWPlatform\WWMacros.h">
+      <Filter>Classes\WWPlatform</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulatorWin.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ide-support\lua_debugger.c">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ide-support\RuntimeLuaImpl.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\DBSystem\WWGameData.cpp">
+      <Filter>Classes\WWPlatform\DBSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\DBSystem\Sqlite3\lsqlite3.c">
+      <Filter>Classes\WWPlatform\DBSystem\Sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\DBSystem\Sqlite3\sqlite3.c">
+      <Filter>Classes\WWPlatform\DBSystem\Sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\EngineSystem\IPhoneTool.cpp">
+      <Filter>Classes\WWPlatform\EngineSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\EngineSystem\PhoneTool_android.cpp">
+      <Filter>Classes\WWPlatform\EngineSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\EngineSystem\PhoneTool_ios.cpp">
+      <Filter>Classes\WWPlatform\EngineSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\EngineSystem\PhoneTool_win32.cpp">
+      <Filter>Classes\WWPlatform\EngineSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\EventSystem\MsgLuaFilter.cpp">
+      <Filter>Classes\WWPlatform\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\EventSystem\WWMsgManager.cpp">
+      <Filter>Classes\WWPlatform\EventSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\GUISystem\SuperRichText.cpp">
+      <Filter>Classes\WWPlatform\GUISystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\LogSystem\WWLog.cpp">
+      <Filter>Classes\WWPlatform\LogSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\lua-bindings\auto\lua_wwconfigsystem_auto.cpp">
+      <Filter>Classes\WWPlatform\lua-bindings\auto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\lua-bindings\auto\lua_wwdbsystem_auto.cpp">
+      <Filter>Classes\WWPlatform\lua-bindings\auto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\lua-bindings\auto\lua_wwenginesystem_auto.cpp">
+      <Filter>Classes\WWPlatform\lua-bindings\auto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\lua-bindings\auto\lua_wweventsystem_auto.cpp">
+      <Filter>Classes\WWPlatform\lua-bindings\auto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\lua-bindings\auto\lua_wwguisystem_auto.cpp">
+      <Filter>Classes\WWPlatform\lua-bindings\auto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\lua-bindings\auto\lua_wwnetsystem_auto.cpp">
+      <Filter>Classes\WWPlatform\lua-bindings\auto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\lua-bindings\auto\lua_wwsoundsystem_auto.cpp">
+      <Filter>Classes\WWPlatform\lua-bindings\auto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\lua-bindings\auto\lua_wwtools_auto.cpp">
+      <Filter>Classes\WWPlatform\lua-bindings\auto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\lua-bindings\manual\lua_wwconfigsystem__manual.cpp">
+      <Filter>Classes\WWPlatform\lua-bindings\manual</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\lua-bindings\manual\lua_wwupdatesystem_manual.cpp">
+      <Filter>Classes\WWPlatform\lua-bindings\manual</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\NetSystem\SocketParallelCheck.cpp">
+      <Filter>Classes\WWPlatform\NetSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\NetSystem\WWBuffer.cpp">
+      <Filter>Classes\WWPlatform\NetSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\NetSystem\WWBufferPool.cpp">
+      <Filter>Classes\WWPlatform\NetSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\NetSystem\WWInetAddress.cpp">
+      <Filter>Classes\WWPlatform\NetSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\NetSystem\WWIPPool.cpp">
+      <Filter>Classes\WWPlatform\NetSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\NetSystem\WWNetwork.cpp">
+      <Filter>Classes\WWPlatform\NetSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\NetSystem\WWNetworkStateHandler.cpp">
+      <Filter>Classes\WWPlatform\NetSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\NetSystem\WWSocket.cpp">
+      <Filter>Classes\WWPlatform\NetSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\SoundSystem\WWSoundManager.cpp">
+      <Filter>Classes\WWPlatform\SoundSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\Tools\ImageDownLoaderPool.cpp">
+      <Filter>Classes\WWPlatform\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\Tools\MD5.cpp">
+      <Filter>Classes\WWPlatform\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\Tools\UrlEncodeDecode.cpp">
+      <Filter>Classes\WWPlatform\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\Tools\WWAnimatePacker.cpp">
+      <Filter>Classes\WWPlatform\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\Tools\WWTools.cpp">
+      <Filter>Classes\WWPlatform\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\Tools\ImageDownLoader.cpp">
+      <Filter>Classes\WWPlatform\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\UpdateSystem\WWDownloader.cpp">
+      <Filter>Classes\WWPlatform\UpdateSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\UpdateSystem\WWUpgradeAssetsMgr.cpp">
+      <Filter>Classes\WWPlatform\UpdateSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\UpdateSystem\UpgradeConst.cpp">
+      <Filter>Classes\WWPlatform\UpdateSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\VariateSystem\LoadCsv.cpp">
+      <Filter>Classes\WWPlatform\VariateSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\VariateSystem\WWConfigManager.cpp">
+      <Filter>Classes\WWPlatform\VariateSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\VariateSystem\parser\WWNetParser.cpp">
+      <Filter>Classes\WWPlatform\VariateSystem\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\VariateSystem\parser\WWSoundParser.cpp">
+      <Filter>Classes\WWPlatform\VariateSystem\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WWPlatform\VariateSystem\parser\WWGeneralParser.cpp">
+      <Filter>Classes\WWPlatform\VariateSystem\parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\game.ico" />
+  </ItemGroup>
+</Project>

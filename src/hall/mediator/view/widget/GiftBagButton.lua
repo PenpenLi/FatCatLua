@@ -1,5 +1,13 @@
+-------------------------------------------------------------------------
+-- Desc:  背包封装按钮
+-- Author: cruelogre
+-- Date:    2017.03.30
+-- Last:
+-- Content:  
+-- Copyright (c) wawagame Entertainment All right reserved.
+--------------------------------------------------------------------------
 local GiftBagButton = class("GiftBagButton",ccui.Button)
-local Giftbag = require("xml.Giftbag")
+local Giftbag = require("config.GiftbagCfg")
 local HallUICfg = require("hall.mediator.cfg.HallUICfg")
 function GiftBagButton:ctor(gid)
 	self:initGid(gid)

@@ -1,6 +1,14 @@
+-------------------------------------------------------------------------
+-- Desc:    大厅主界面
+-- Author: cruelogre
+-- Date:    2017.03.30
+-- Last:
+-- Content:  
+-- Copyright (c) wawagame Entertainment All right reserved.
+--------------------------------------------------------------------------
 local HallUILayer = class("HallUILayer",require("app.views.uibase.PopWindowBase"))
 local HallUILayerContent = require("cbcsb.GameMainScene")
-local Giftbag = require("xml.Giftbag")
+local Giftbag = require("config.GiftbagCfg")
 local GiftBagButton = import(".widget.GiftBagButton")
 function HallUILayer:ctor(param)
 	HallUILayer.super.ctor(self)

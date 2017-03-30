@@ -5,14 +5,13 @@
         <LuaFile RelativePath=".\..\res\LuaExtend.lua" />
         <LuaFile RelativePath=".\..\res\resConfig.lua" />
         <Filter Name="WWPlatform" Directory=".\..\res\WWPlatform" Toggle="true" />
-        <Filter Name="animation" Directory=".\..\res\animation" Toggle="true" >
+        <Filter Name="animation" Directory=".\..\res\animation" Toggle="false" >
             <Filter Name="cs2_Animation" Directory=".\..\res\animation\cs2_Animation" Toggle="true" />
             <Filter Name="csm_Animation" Directory=".\..\res\animation\csm_Animation" Toggle="true" />
             <Filter Name="cw1zs_Animation" Directory=".\..\res\animation\cw1zs_Animation" Toggle="true" />
             <Filter Name="cw2zs_Animation" Directory=".\..\res\animation\cw2zs_Animation" Toggle="true" />
             <Filter Name="cw3zs_Animation" Directory=".\..\res\animation\cw3zs_Animation" Toggle="true" />
             <Filter Name="cwbj_Animation" Directory=".\..\res\animation\cwbj_Animation" Toggle="true" />
-            <Filter Name="Export" Directory=".\..\res\animation\Export" Toggle="true" />
             <Filter Name="fengli_effect" Directory=".\..\res\animation\fengli_effect" Toggle="true" />
             <Filter Name="haiyang_effect" Directory=".\..\res\animation\haiyang_effect" Toggle="true" />
             <Filter Name="heidong_Animation" Directory=".\..\res\animation\heidong_Animation" Toggle="true" />
@@ -59,6 +58,7 @@
             <LuaFile RelativePath=".\..\res\cbcsb\WaitDialog.lua" />
             <LuaFile RelativePath=".\..\res\cbcsb\WeaponLayer.lua" />
             <LuaFile RelativePath=".\..\res\cbcsb\WeaponUpgradeLayer.lua" />
+            <LuaFile RelativePath=".\..\res\cbcsb\LoginLayer.lua" />
         </Filter>
         <Filter Name="cbcsb.2" Directory=".\..\res\cbcsb.2" Toggle="true" >
             <LuaFile RelativePath=".\..\res\cbcsb.2\CatHomeLayer.lua" />
@@ -112,12 +112,12 @@
         <Filter Name="dialog" Directory=".\..\res\dialog" Toggle="true" />
         <Filter Name="en_US" Directory=".\..\res\en_US" Toggle="false" >
             <Filter Name="game" Directory=".\..\res\en_US\game" Toggle="false" >
-                <Filter Name="animation" Directory=".\..\res\en_US\game\animation" Toggle="true" >
+                <Filter Name="animation" Directory=".\..\res\en_US\game\animation" Toggle="false" >
                     <Filter Name="bosscoming" Directory=".\..\res\en_US\game\animation\bosscoming" Toggle="true" />
                     <Filter Name="warnring" Directory=".\..\res\en_US\game\animation\warnring" Toggle="true" />
                 </Filter>
             </Filter>
-            <Filter Name="res" Directory=".\..\res\en_US\res" Toggle="true" >
+            <Filter Name="res" Directory=".\..\res\en_US\res" Toggle="false" >
                 <Filter Name="collapsemenu" Directory=".\..\res\en_US\res\collapsemenu" Toggle="true" />
                 <Filter Name="GameOverLayer" Directory=".\..\res\en_US\res\GameOverLayer" Toggle="true" />
                 <Filter Name="GameTaskLayer" Directory=".\..\res\en_US\res\GameTaskLayer" Toggle="true" />
@@ -127,14 +127,14 @@
             </Filter>
             <Filter Name="xml" Directory=".\..\res\en_US\xml" Toggle="true" />
         </Filter>
-        <Filter Name="english" Directory=".\..\res\english" Toggle="true" >
+        <Filter Name="english" Directory=".\..\res\english" Toggle="false" >
             <Filter Name="cbcsb" Directory=".\..\res\english\cbcsb" Toggle="true" >
                 <LuaFile RelativePath=".\..\res\english\cbcsb\CatFragmentAddDialog.lua" />
                 <LuaFile RelativePath=".\..\res\english\cbcsb\WeaponUpgradeLayer.lua" />
             </Filter>
             <Filter Name="dialog" Directory=".\..\res\english\dialog" Toggle="true" />
             <Filter Name="fnts" Directory=".\..\res\english\fnts" Toggle="true" />
-            <Filter Name="res" Directory=".\..\res\english\res" Toggle="true" >
+            <Filter Name="res" Directory=".\..\res\english\res" Toggle="false" >
                 <Filter Name="achievement" Directory=".\..\res\english\res\achievement" Toggle="true" />
                 <Filter Name="CatHome" Directory=".\..\res\english\res\CatHome" Toggle="true" />
                 <Filter Name="GameMainScene" Directory=".\..\res\english\res\GameMainScene" Toggle="true" />
@@ -153,8 +153,8 @@
         </Filter>
         <Filter Name="fnts" Directory=".\..\res\fnts" Toggle="true" />
         <Filter Name="fonts" Directory=".\..\res\fonts" Toggle="true" />
-        <Filter Name="game" Directory=".\..\res\game" Toggle="true" >
-            <Filter Name="animation" Directory=".\..\res\game\animation" Toggle="true" >
+        <Filter Name="game" Directory=".\..\res\game" Toggle="false" >
+            <Filter Name="animation" Directory=".\..\res\game\animation" Toggle="false" >
                 <Filter Name="bomb" Directory=".\..\res\game\animation\bomb" Toggle="true" />
                 <Filter Name="bosscoming" Directory=".\..\res\game\animation\bosscoming" Toggle="true" />
                 <Filter Name="combo" Directory=".\..\res\game\animation\combo" Toggle="true" />
@@ -184,7 +184,7 @@
             <Filter Name="weapon" Directory=".\..\res\game\weapon" Toggle="true" />
         </Filter>
         <Filter Name="music" Directory=".\..\res\music" Toggle="true" />
-        <Filter Name="res" Directory=".\..\res\res" Toggle="true" >
+        <Filter Name="res" Directory=".\..\res\res" Toggle="false" >
             <Filter Name="achievement" Directory=".\..\res\res\achievement" Toggle="true" />
             <Filter Name="BeginScene" Directory=".\..\res\res\BeginScene" Toggle="true" />
             <Filter Name="btnText" Directory=".\..\res\res\btnText" Toggle="true" />
@@ -194,7 +194,7 @@
             <Filter Name="GameMainScene" Directory=".\..\res\res\GameMainScene" Toggle="true" />
             <Filter Name="GameOverLayer" Directory=".\..\res\res\GameOverLayer" Toggle="true" />
             <Filter Name="GamePauseLayer" Directory=".\..\res\res\GamePauseLayer" Toggle="true" />
-            <Filter Name="gamescenebg" Directory=".\..\res\res\gamescenebg" Toggle="true" >
+            <Filter Name="gamescenebg" Directory=".\..\res\res\gamescenebg" Toggle="false" >
                 <Filter Name="gamebg_1" Directory=".\..\res\res\gamescenebg\gamebg_1" Toggle="true" />
                 <Filter Name="gamebg_2" Directory=".\..\res\res\gamescenebg\gamebg_2" Toggle="true" />
                 <Filter Name="gamebg_3" Directory=".\..\res\res\gamescenebg\gamebg_3" Toggle="true" />
@@ -216,7 +216,7 @@
             <Filter Name="share" Directory=".\..\res\res\share" Toggle="true" />
             <Filter Name="SignLayer" Directory=".\..\res\res\SignLayer" Toggle="true" />
             <Filter Name="Skillexchange" Directory=".\..\res\res\Skillexchange" Toggle="true" />
-            <Filter Name="store" Directory=".\..\res\res\store" Toggle="true" >
+            <Filter Name="store" Directory=".\..\res\res\store" Toggle="false" >
                 <Filter Name="india" Directory=".\..\res\res\store\india" Toggle="true" />
                 <Filter Name="indonesia" Directory=".\..\res\res\store\indonesia" Toggle="true" />
             </Filter>
@@ -224,7 +224,7 @@
             <Filter Name="WeaponLayer" Directory=".\..\res\res\WeaponLayer" Toggle="true" />
             <Filter Name="WeaponSecondary" Directory=".\..\res\res\WeaponSecondary" Toggle="true" />
         </Filter>
-        <Filter Name="res.2" Directory=".\..\res\res.2" Toggle="true" >
+        <Filter Name="res.2" Directory=".\..\res\res.2" Toggle="false" >
             <Filter Name="CatHome" Directory=".\..\res\res.2\CatHome" Toggle="true" />
             <Filter Name="collapsemenu" Directory=".\..\res\res.2\collapsemenu" Toggle="true" />
             <Filter Name="GameTaskLayer" Directory=".\..\res\res.2\GameTaskLayer" Toggle="true" />
@@ -258,13 +258,15 @@
             <Filter Name="achievement" Directory=".\..\res\xml\achievement" Toggle="true" />
             <Filter Name="appvn" Directory=".\..\res\xml\appvn" Toggle="true" />
             <Filter Name="tollgateData" Directory=".\..\res\xml\tollgateData" Toggle="true" />
-            <LuaFile RelativePath=".\..\res\xml\Giftbag.lua" />
+        </Filter>
+        <Filter Name="config" Directory=".\..\res\config" Toggle="true" >
+            <LuaFile RelativePath=".\..\res\config\GiftbagCfg.lua" />
         </Filter>
     </Filter>
     <Filter Name="src" Directory=".\..\src" Toggle="false" >
         <LuaFile RelativePath=".\..\src\config.lua" />
         <LuaFile RelativePath=".\..\src\main.lua" />
-        <Filter Name="app" Directory=".\..\src\app" Toggle="true" >
+        <Filter Name="app" Directory=".\..\src\app" Toggle="false" >
             <LuaFile RelativePath=".\..\src\app\MyApp.lua" />
             <Filter Name="views" Directory=".\..\src\app\views" Toggle="true" >
                 <LuaFile RelativePath=".\..\src\app\views\init.lua" />
@@ -505,7 +507,7 @@
                 </Filter>
             </Filter>
         </Filter>
-        <Filter Name="hall" Directory=".\..\src\hall" Toggle="true" >
+        <Filter Name="hall" Directory=".\..\src\hall" Toggle="false" >
             <LuaFile RelativePath=".\..\src\hall\init.lua" />
             <Filter Name="animator" Directory=".\..\src\hall\animator" Toggle="true" >
                 <LuaFile RelativePath=".\..\src\hall\animator\CharacterAnimator.lua" />
@@ -518,11 +520,13 @@
             </Filter>
             <Filter Name="data" Directory=".\..\src\hall\data" Toggle="true" >
                 <LuaFile RelativePath=".\..\src\hall\data\UIStateJumper.lua" />
+                <LuaFile RelativePath=".\..\src\hall\data\GameConfig.lua" />
             </Filter>
-            <Filter Name="event" Directory=".\..\src\hall\event" Toggle="true" >
+            <Filter Name="event" Directory=".\..\src\hall\event" Toggle="false" >
                 <LuaFile RelativePath=".\..\src\hall\event\HallEvent.lua" />
+                <LuaFile RelativePath=".\..\src\hall\event\HallGameConst.lua" />
             </Filter>
-            <Filter Name="fsm" Directory=".\..\src\hall\fsm" Toggle="false" >
+            <Filter Name="fsm" Directory=".\..\src\hall\fsm" Toggle="true" >
                 <LuaFile RelativePath=".\..\src\hall\fsm\init.lua" />
                 <Filter Name="cfg" Directory=".\..\src\hall\fsm\cfg" Toggle="false" >
                     <LuaFile RelativePath=".\..\src\hall\fsm\cfg\UIRootCfg.lua" />
@@ -550,16 +554,17 @@
                 <LuaFile RelativePath=".\..\src\hall\mediator\HallScene.lua" />
                 <LuaFile RelativePath=".\..\src\hall\mediator\HallSceneMediator.lua" />
                 <LuaFile RelativePath=".\..\src\hall\mediator\MediatorRegistry.lua" />
-                <Filter Name="cfg" Directory=".\..\src\hall\mediator\cfg" Toggle="false" >
+                <Filter Name="cfg" Directory=".\..\src\hall\mediator\cfg" Toggle="true" >
                     <LuaFile RelativePath=".\..\src\hall\mediator\cfg\ActivityCfg.lua" />
                     <LuaFile RelativePath=".\..\src\hall\mediator\cfg\SettingCfg.lua" />
                     <LuaFile RelativePath=".\..\src\hall\mediator\cfg\HallUICfg.lua" />
                 </Filter>
-                <Filter Name="view" Directory=".\..\src\hall\mediator\view" Toggle="false" >
+                <Filter Name="view" Directory=".\..\src\hall\mediator\view" Toggle="true" >
                     <LuaFile RelativePath=".\..\src\hall\mediator\view\SettingLayer.lua" />
                     <LuaFile RelativePath=".\..\src\hall\mediator\view\HallUILayer.lua" />
                     <Filter Name="widget" Directory=".\..\src\hall\mediator\view\widget" Toggle="false" >
                         <LuaFile RelativePath=".\..\src\hall\mediator\view\widget\GiftBagButton.lua" />
+                        <LuaFile RelativePath=".\..\src\hall\mediator\view\widget\ResourceShow.lua" />
                     </Filter>
                 </Filter>
             </Filter>

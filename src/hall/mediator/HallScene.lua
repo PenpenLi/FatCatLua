@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------
--- Desc:    地方棋牌
+-- Desc:     大厅场景
 -- Author: cruelogre
 -- Date:    2016.12.15
 -- Last:
@@ -7,6 +7,7 @@
 -- Copyright (c) wawagame Entertainment All right reserved.
 --------------------------------------------------------------------------
 local HallScene = class("HallScene",require("app.views.uibase.WWSceneBase"))
+import("..event.HallGameConst")
 function HallScene:ctor(param)
 	HallScene.super.ctor(self)
 	self.param = param

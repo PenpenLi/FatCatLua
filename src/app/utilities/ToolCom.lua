@@ -596,6 +596,21 @@ function ToolCom.ButtonArmature(button, btnName, armatureFile,isbk)
 	tex:setName(btnName)
 	button:addChild(tex)
 end
+--添加get set 的合成方法
+--obj 对象
+--property 属性名字
+--default 默认值
+function ToolCom.addSynthesize(obj,property,default)
+    if obj == nil or property == nil then
+        --todo
+        return;
+    end
+    local member = property
+    obj[member] = default
+    local ucMember = string.ucfirst(member)
+    obj['get' .. ucMember] = function(this) return this[member] end
+    obj['set' .. ucMember] = function(this, value) this[member] = value end
+end
 -- proxy中批量注册网络消息，和下面的批量注销网络消息
 -- 防止手动注销的时候，漏掉。
 ToolCom.registerNetMsgListener = function(proxy, msgCallback, rootMsgCallback, ...)
